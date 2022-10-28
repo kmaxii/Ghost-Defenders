@@ -42,7 +42,6 @@ public abstract class PathFollower : MonoBehaviour
     protected virtual void Update()
     {
         
-        Debug.Log(TotalLives);
         if (_path == null)
         {
             return;
