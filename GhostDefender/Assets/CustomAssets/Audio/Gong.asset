@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2b39f998fdf8d40b457d2ff25d75bb, type: 3}
+  m_Name: Gong
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: 849a1a27e86f0494bb238c5ab90dbf4b, type: 3}
+  - {fileID: 8300000, guid: 0ce30b2619ef87d42a9c4079140b163f, type: 3}
+  - {fileID: 8300000, guid: c34708caddb28fd4fa2706a7d743d0e1, type: 3}
+  - {fileID: 8300000, guid: 49e03b8059c97e946833e44dcafda7a9, type: 3}
+  - {fileID: 8300000, guid: f67af852bebc3f7418515e986a1f0162, type: 3}
+  - {fileID: 8300000, guid: 13f574fe6466daa4f9f81e3f396988d1, type: 3}
+  - {fileID: 8300000, guid: 909e7290ec6e73a469b3b316cda39f41, type: 3}
+  - {fileID: 8300000, guid: 01af0111ff99ff348ad7ac4a34fe016b, type: 3}
+  - {fileID: 8300000, guid: 2753b0c34b7c42345822009d0e8550a9, type: 3}
+  - {fileID: 8300000, guid: a391705f55c3b7a4e81a8b327e23b9f5, type: 3}
+  minimumVolume: 0.733
+  maximumVolume: 1.26
+  minimumPitch: 0.783
+  maximumPitch: 1.17

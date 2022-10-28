@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0f0563de87246caa899c12be8030548, type: 3}
+  m_Name: Moab
+  m_EditorClassIdentifier: 
+  lives: 200
+  speed: 0.72
+  spawnOnDeath: {fileID: 11400000, guid: 4669026af6f84eb43af9860c9baef6d5, type: 2}
+  moneyOnPop: 200
+  mustHaveToPop: []
+  cantHaveToPop: []
+  damageModifier:
+  - attribute: {fileID: 11400000, guid: c971c5cbff9b09844aa83f0a77034f23, type: 2}
+    damageAddition: 33
+  - attribute: {fileID: 11400000, guid: e0edfcbbe3cdf0540b23f33553c4625d, type: 2}
+    damageAddition: 70
+  blimp: {fileID: 636063995103973209, guid: f582461c66ebbd2458e1c2a851da90ad, type: 3}

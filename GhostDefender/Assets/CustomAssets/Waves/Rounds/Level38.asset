@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7053f54ec39f42558512b38cef2c50f1, type: 3}
+  m_Name: Level38
+  m_EditorClassIdentifier: 
+  defaultDelay: 0
+  combination:
+  - afterPreviousFinished: 0
+    delayToStart: 3
+    useDefaultDelay: 0
+    defaultDelay: 0
+    amount: 42
+    delayBetween: 1
+    waveElement: {fileID: 11400000, guid: 1c2b45f1e86740d48ae7586a67dc4e8c, type: 2}
+    isRegen: 0
+    isCamo: 0
+  - afterPreviousFinished: 0
+    delayToStart: 6.45
+    useDefaultDelay: 0
+    defaultDelay: 0
+    amount: 17
+    delayBetween: 0.27
+    waveElement: {fileID: 11400000, guid: 0a8672f30aa0f4649bdb8a9c108a72b6, type: 2}
+    isRegen: 0
+    isCamo: 0
+  - afterPreviousFinished: 0
+    delayToStart: 20.54
+    useDefaultDelay: 0
+    defaultDelay: 0
+    amount: 14
+    delayBetween: 0.4
+    waveElement: {fileID: 11400000, guid: 52b0863ae97ef974d8d57eb05346cca8, type: 2}
+    isRegen: 0
+    isCamo: 0
+  - afterPreviousFinished: 0
+    delayToStart: 32.97
+    useDefaultDelay: 0
+    defaultDelay: 0
+    amount: 10
+    delayBetween: 0.42
+    waveElement: {fileID: 11400000, guid: e03f48f0aa5faec439ac306aa5e976dd, type: 2}
+    isRegen: 0
+    isCamo: 0
+  - afterPreviousFinished: 0
+    delayToStart: 43
+    useDefaultDelay: 0
+    defaultDelay: 0
+    amount: 2
+    delayBetween: 1.58
+    waveElement: {fileID: 11400000, guid: 1bd5c99023542a24cb56d104af8c0783, type: 2}
+    isRegen: 0
+    isCamo: 0

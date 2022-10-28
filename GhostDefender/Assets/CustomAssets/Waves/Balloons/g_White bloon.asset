@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25922abbd2fbae749b7f6f87a9430550, type: 3}
+  m_Name: g_White bloon
+  m_EditorClassIdentifier: 
+  balloonTexture: {fileID: 623171256, guid: 6157efc8b7a318d42b330d1119787230, type: 3}
+  camoTexture: {fileID: 304308435, guid: 6157efc8b7a318d42b330d1119787230, type: 3}
+  regenTexture: {fileID: -1685267086, guid: 6157efc8b7a318d42b330d1119787230, type: 3}
+  regenCamoTexture: {fileID: -1467052975, guid: 6157efc8b7a318d42b330d1119787230, type: 3}
+  lives: 1
+  isImmuneToExplosions: 0
+  isImmuneToFreezing: 1
+  isImmuneToSharpProjectiles: 0
+  speed: 2
+  spawnOnDeath: {fileID: 11400000, guid: c8b5bc794011e394b9de2c188a530664, type: 2}
+  moneyOnPop: 1

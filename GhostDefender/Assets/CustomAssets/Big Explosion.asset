@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd19456f0cceff46b743befe10e442c, type: 3}
+  m_Name: Big Explosion
+  m_EditorClassIdentifier: 
+  delayBetweenChanges: 0.05
+  size: 7.5
+  sprites:
+  - {fileID: -203472053, guid: 20b5673db417a974392f1c0551787be3, type: 3}
+  - {fileID: 1269409796, guid: 20b5673db417a974392f1c0551787be3, type: 3}
+  - {fileID: -1405507592, guid: 20b5673db417a974392f1c0551787be3, type: 3}
+  - {fileID: -204371910, guid: 20b5673db417a974392f1c0551787be3, type: 3}
+  - {fileID: 399033038, guid: 20b5673db417a974392f1c0551787be3, type: 3}
+  - {fileID: -1901298186, guid: 20b5673db417a974392f1c0551787be3, type: 3}

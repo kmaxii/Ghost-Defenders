@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b7111192c370f24893b735bcb815ccd, type: 3}
+  m_Name: Bomb Tower
+  m_EditorClassIdentifier: 
+  path1:
+  - upgradeName: Extra Range
+    description: Increases this towers range
+    upgradeImage: {fileID: -1409203613, guid: e8c3d2a07a3edd94ba4327a9b6b4e16f, type: 3}
+    price: 200
+    attackCooldown: 0
+    damage: 0
+    pierce: 0
+    projectileSpeed: 0
+    canDetectCamosAfter: 0
+    newSprite: {fileID: -1409203613, guid: e8c3d2a07a3edd94ba4327a9b6b4e16f, type: 3}
+  - upgradeName: Frag Bombs
+    description: ' Each explosion throws out 8 sharp fragments that pop even more
+      bloons.'
+    upgradeImage: {fileID: -216899387, guid: e8c3d2a07a3edd94ba4327a9b6b4e16f, type: 3}
+    price: 300
+    attackCooldown: 0
+    damage: 0
+    pierce: 0
+    projectileSpeed: 0
+    canDetectCamosAfter: 1
+    newSprite: {fileID: -216899387, guid: e8c3d2a07a3edd94ba4327a9b6b4e16f, type: 3}
+  - upgradeName: Cluster Bombs
+    description: Throws out secondary bombs instead of frags- causing widespread
+      explosive poppage.
+    upgradeImage: {fileID: 1490004533, guid: e8c3d2a07a3edd94ba4327a9b6b4e16f, type: 3}
+    price: 800
+    attackCooldown: 0.2
+    damage: 0
+    pierce: 0
+    projectileSpeed: 0
+    canDetectCamosAfter: 0
+    newSprite: {fileID: 1490004533, guid: e8c3d2a07a3edd94ba4327a9b6b4e16f, type: 3}
+  - upgradeName: Bloon Impact
+    description: Impacts from this tower become so violent, bloons become stunned
+      for a short time when they are hit.
+    upgradeImage: {fileID: 1474205868, guid: e8c3d2a07a3edd94ba4327a9b6b4e16f, type: 3}
+    price: 4000
+    attackCooldown: -0.15
+    damage: 1
+    pierce: 50
+    projectileSpeed: 1000
+    canDetectCamosAfter: 0
+    newSprite: {fileID: 1474205868, guid: e8c3d2a07a3edd94ba4327a9b6b4e16f, type: 3}
+  path2:
+  - upgradeName: Bigger Bombs
+    description: Bombs hit a larger area.
+    upgradeImage: {fileID: -483386163, guid: e8c3d2a07a3edd94ba4327a9b6b4e16f, type: 3}
+    price: 400
+    attackCooldown: 0
+    damage: 0
+    pierce: 0
+    projectileSpeed: 0
+    canDetectCamosAfter: 0
+    newSprite: {fileID: 0}
+  - upgradeName: Missile Launcher
+    description: Missiles fly faster and further, popping more bloons and have higher
+      velocity.
+    upgradeImage: {fileID: -1329461320, guid: e8c3d2a07a3edd94ba4327a9b6b4e16f, type: 3}
+    price: 400
+    attackCooldown: -0.09
+    damage: 0
+    pierce: 0
+    projectileSpeed: 0
+    canDetectCamosAfter: 0
+    newSprite: {fileID: 592515465, guid: e8c3d2a07a3edd94ba4327a9b6b4e16f, type: 3}
+  - upgradeName: MOAB Mauler
+    description: MOAB Maulers are special missiles that wreak havoc on M.O.A.B-class
+      bloons, inflicting 10x damage.
+    upgradeImage: {fileID: -474716961, guid: 6157efc8b7a318d42b330d1119787230, type: 3}
+    price: 900
+    attackCooldown: 0
+    damage: 0
+    pierce: 0
+    projectileSpeed: 0
+    canDetectCamosAfter: 0
+    newSprite: {fileID: -474716961, guid: 6157efc8b7a318d42b330d1119787230, type: 3}
+  - upgradeName: MOAB Assassin
+    description: 'Assassinate MOAB ability: Special missile flies out and does massive
+      damage to MOAB-Class Bloons. Regular attack range and MOAB-class damage also
+      increased.'
+    upgradeImage: {fileID: 544442681, guid: e8c3d2a07a3edd94ba4327a9b6b4e16f, type: 3}
+    price: 3200
+    attackCooldown: 0
+    damage: 0
+    pierce: 0
+    projectileSpeed: 0
+    canDetectCamosAfter: 0
+    newSprite: {fileID: 544442681, guid: e8c3d2a07a3edd94ba4327a9b6b4e16f, type: 3}
