@@ -18,9 +18,9 @@ MonoBehaviour:
     delayToStart: 3
     useDefaultDelay: 0
     defaultDelay: 10
-    amount: 20
+    amount: 1
     delayBetween: 0.4
-    waveElement: {fileID: 11400000, guid: f228b7859b5fc6642b6adffdb2e927e5, type: 2}
+    waveElement: {fileID: 11400000, guid: 99138c7d3f97a1e4a8c6d13b323ef016, type: 2}
     isRegen: 0
     isCamo: 0
   - afterPreviousFinished: 1
@@ -29,7 +29,7 @@ MonoBehaviour:
     defaultDelay: 10
     amount: 35
     delayBetween: 0.25
-    waveElement: {fileID: 11400000, guid: f228b7859b5fc6642b6adffdb2e927e5, type: 2}
+    waveElement: {fileID: 11400000, guid: e303b25984e58ca4db3be855f2071d06, type: 2}
     isRegen: 0
     isCamo: 0
   - afterPreviousFinished: 0
@@ -38,7 +38,7 @@ MonoBehaviour:
     defaultDelay: 10
     amount: 1
     delayBetween: 0
-    waveElement: {fileID: 11400000, guid: 1b2fa7b989ef9364c9e36b8d16e26be3, type: 2}
+    waveElement: {fileID: 11400000, guid: 99138c7d3f97a1e4a8c6d13b323ef016, type: 2}
     isRegen: 0
     isCamo: 0
   - afterPreviousFinished: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
     defaultDelay: 10
     amount: 1
     delayBetween: 0
-    waveElement: {fileID: 11400000, guid: b9adfe31cfbb44f4ea254aa5ea62c930, type: 2}
+    waveElement: {fileID: 11400000, guid: 7164be1f4ca27b14693f79907c5d0815, type: 2}
     isRegen: 0
     isCamo: 0
   - afterPreviousFinished: 0
@@ -56,7 +56,7 @@ MonoBehaviour:
     defaultDelay: 10
     amount: 1
     delayBetween: 0
-    waveElement: {fileID: 11400000, guid: ff423f43898a3194b8a1e3050f510ed1, type: 2}
+    waveElement: {fileID: 11400000, guid: faeca88ee7b4f444f9133b25c6e3af7b, type: 2}
     isRegen: 0
     isCamo: 0
   - afterPreviousFinished: 0
@@ -65,7 +65,7 @@ MonoBehaviour:
     defaultDelay: 10
     amount: 1
     delayBetween: 0
-    waveElement: {fileID: 11400000, guid: a030e81ef843ba14cb54d64983d3ed73, type: 2}
+    waveElement: {fileID: 11400000, guid: 4c4f687ed5ccb7742a6f5ee26e07503f, type: 2}
     isRegen: 0
     isCamo: 0
   - afterPreviousFinished: 0

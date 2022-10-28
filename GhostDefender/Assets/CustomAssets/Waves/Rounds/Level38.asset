@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultDelay: 0
   combination:
-  - afterPreviousFinished: 0
+  - afterPreviousFinished: 1
     delayToStart: 3
     useDefaultDelay: 0
     defaultDelay: 0

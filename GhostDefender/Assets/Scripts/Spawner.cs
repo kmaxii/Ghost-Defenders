@@ -216,7 +216,7 @@ public class Spawner : MonoBehaviour, IChildFinished, IEventListenerInterface
         Down
     }
 
-    //This is called when there are no more balloons on the screen.
+    //This is called when there are no more balloons to spawn
     public void Continue(SpawnBalloonCombination triggeredBy)
     {
         _everythingSpawned = true;

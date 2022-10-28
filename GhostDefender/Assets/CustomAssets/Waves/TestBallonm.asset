@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7053f54ec39f42558512b38cef2c50f1, type: 3}
+  m_Name: TestBallonm
+  m_EditorClassIdentifier: 
+  defaultDelay: 0
+  combination:
+  - afterPreviousFinished: 0
+    delayToStart: 2.21
+    useDefaultDelay: 0
+    defaultDelay: 0
+    amount: 142
+    delayBetween: 1.01
+    waveElement: {fileID: 11400000, guid: f228b7859b5fc6642b6adffdb2e927e5, type: 2}
+    isRegen: 0
+    isCamo: 0
+  - afterPreviousFinished: 0
+    delayToStart: 2.31
+    useDefaultDelay: 0
+    defaultDelay: 0
+    amount: 1
+    delayBetween: 0.09
+    waveElement: {fileID: 11400000, guid: 014ee53edf2e23444bd36d0aae2188f6, type: 2}
+    isRegen: 0
+    isCamo: 0
