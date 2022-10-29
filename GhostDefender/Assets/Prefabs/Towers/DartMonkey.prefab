@@ -785,6 +785,7 @@ MonoBehaviour:
       m_Calls: []
   defaultRange: {fileID: 11400000, guid: e65d545a61d7f1448986d3102eca4403, type: 2}
   animationOnFire: Fire
+  _extraRangeOffset: 1
 --- !u!95 &6206475456652965784
 Animator:
   serializedVersion: 4
