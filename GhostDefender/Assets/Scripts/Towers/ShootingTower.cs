@@ -1,8 +1,12 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Numerics;
 using Scriptable_objects;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using Quaternion = UnityEngine.Quaternion;
+using Vector3 = UnityEngine.Vector3;
 
 namespace Towers
 {
@@ -96,8 +100,11 @@ namespace Towers
             _targetsInRange.Add(other.gameObject.GetComponent<PathFollower>());
             
             //If there is no current target, get one
-            if(!furthestInRange)
+            if (!furthestInRange && CanSeePoint(other.transform.position))
+            {
                 furthestInRange = other.gameObject;
+
+            }
         }
 
         private void OnTriggerExit2D(Collider2D other)
@@ -127,6 +134,9 @@ namespace Towers
             furthest = null;
             float furthestTarget = 0f;
             bool found = _targetsInRange.Count > 0;
+            
+            _targetsInRange = _targetsInRange.OrderBy(o=>o.distanceTraveled).ToList();
+
             for (int i = _targetsInRange.Count - 1; i >= 0; i--)
             {
                 PathFollower pathFollower = _targetsInRange[i];
@@ -138,7 +148,7 @@ namespace Towers
 
                 if (pathFollower.distanceTraveled > furthestTarget)
                 {
-                    if (!CanSeeEnemy(pathFollower))
+                    if (!CanSeePoint(pathFollower.transform.position))
                         continue;
                     
                     furthest = pathFollower.gameObject;
@@ -154,19 +164,25 @@ namespace Towers
             return found;
         }
 
-        private bool CanSeeEnemy(PathFollower pathFollower)
+        private bool CanSeePoint(Vector3 position)
         {
             GridManager gridManager = GridManager.Instance;
             Tilemap tileMap = gridManager.GetTileMap("Objects");
 
-            Vector3 direction = pathFollower.transform.position - transform.position;
+            Vector3 direction = position - transform.position;
 
             float distance = direction.magnitude;
             direction.Normalize();
-            
-            for (float i = 0.5f; i < distance * 2; i += 0.5f)
+
+            float increments = 0.5f;
+            for (float i = increments; i < distance; i += increments)
             {
-                if (tileMap.HasTile(tileMap.layoutGrid.WorldToCell(direction * i)))
+                Vector3 worldPos = direction * i + transform.position;
+                worldPos.z = 0;
+                Vector3Int pos = tileMap.layoutGrid.WorldToCell(worldPos);
+                tileMap.SetColor(pos, Color.black);
+                
+                if (tileMap.HasTile(pos))
                     return false;
             }
 
