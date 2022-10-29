@@ -34,7 +34,7 @@ public class GameOver : MonoBehaviour, IEventListenerInterface
     public void OnEventRaised()
     {
 
-        if (lives.Value >= 0)
+        if (lives.Value <= 0)
         {
             text.text = "GAME OVER";
             ShowScreen();
