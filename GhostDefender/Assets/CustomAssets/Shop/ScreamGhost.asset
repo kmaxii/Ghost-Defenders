@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shopIcon: {fileID: -1827363754, guid: 339faa579bde32f438da95cbdae65a88, type: 3}
   prefabToSpawn: {fileID: 6206475457069416282, guid: bec1b6ee58329d140b9bdd084a3d5998, type: 3}
-  cost: 10
+  cost: 1000
   cantSpawnOn: {fileID: 11400000, guid: 93db9e307e186694daaf5766c7461548, type: 2}
-  defaultRange: {fileID: 11400000, guid: e65d545a61d7f1448986d3102eca4403, type: 2}
+  defaultRange: {fileID: 11400000, guid: f5dbef66929692a4694907832ee2a1f2, type: 2}

@@ -4,12 +4,13 @@ using System.Numerics;
 using Scriptable_objects;
 using Towers;
 using UnityEngine;
+using Quaternion = UnityEngine.Quaternion;
 using Vector3 = UnityEngine.Vector3;
 
 public class Gun : MonoBehaviour
 {
     [Tooltip("The first element of this array is the starting bullet. The active one can be decided with the activeBullet Int")]
-    [SerializeField] private GameObject[] bullets;
+    [SerializeField] protected GameObject[] bullets;
     public int activeBullet;
     [Tooltip("How many degrees offset the bullet should be shoot compared to targets position. (Clockwise).")]
     [Range(0, 360)]
@@ -72,7 +73,7 @@ public class Gun : MonoBehaviour
 
         direction *= (bulletSpeed * 1.0f);
         
-        GameObject spawned = Instantiate(bullets[activeBullet], position, _shootingTower.transform.rotation);
+        GameObject spawned = Instantiate(bullets[activeBullet], position, Quaternion.FromToRotation(Vector3.down, direction));
 
         Bullet bullet = spawned.GetComponent<Bullet>();
         

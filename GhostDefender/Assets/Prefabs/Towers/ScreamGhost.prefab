@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4040833413034413987}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.19, y: -0.18, z: 0}
+  m_LocalPosition: {x: 0, y: -0.18, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45,10 +45,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullets:
-  - {fileID: 8447012491566630869, guid: dfc013f6df335e543924d7f33058e14e, type: 3}
+  - {fileID: 8447012491566630869, guid: 77d72f70c13dd6c41bd1964d504d8671, type: 3}
   activeBullet: 0
-  offset: 30
-  delay: 0.04
+  offset: 90
+  delay: 0.02
 --- !u!1 &5905615228328928666
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,7 +330,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6206475455437319254}
-  - component: {fileID: 6206475455437319255}
+  - component: {fileID: 7961119355085755286}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -346,14 +346,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6206475455437319249}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.19, y: -0.18, z: 0}
+  m_LocalPosition: {x: 0, y: -0.18, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6206475456652965785}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6206475455437319255
+--- !u!114 &7961119355085755286
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -362,13 +362,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6206475455437319249}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26831a93286266449b1b3fce149e0ed7, type: 3}
+  m_Script: {fileID: 11500000, guid: 1f09c3974aa16244a814d0535e8ca70f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bullets:
   - {fileID: 8447012491566630869, guid: 77d72f70c13dd6c41bd1964d504d8671, type: 3}
-  - {fileID: 8447012491566630869, guid: 3f7abb779c54bce43b999817569871d4, type: 3}
-  - {fileID: 8447012491566630869, guid: e906cb214ae970e45b60c0c284a50c02, type: 3}
   activeBullet: 0
   offset: 0
   delay: 0
@@ -588,6 +586,7 @@ Transform:
   - {fileID: 6206475455062394456}
   - {fileID: 6206475456057031801}
   - {fileID: 6517496934029323626}
+  - {fileID: 2586937154919984331}
   - {fileID: 343086296929652732}
   m_Father: {fileID: 6206475457069416283}
   m_RootOrder: 1
@@ -607,7 +606,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.33
+  m_Radius: 4
 --- !u!114 &6206475456652965787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -620,14 +619,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4888f956f5b6ada4187a86c740c8b469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerUpgrade: {fileID: 11400000, guid: dfb0ca6c65e6f1a4c8d083a187f397f5, type: 2}
+  towerUpgrade: {fileID: 11400000, guid: 6f7e3427498297a4e92d051276929f4c, type: 2}
   _spriteChanger: {fileID: 5634170752545521238}
   _reachRing: {fileID: 6206475456057031806}
   _towerCollider: {fileID: 6206475456652965786}
   money: {fileID: 11400000, guid: 1ed0aff7ea52c294c907c6b53927c157, type: 2}
   shopElement: {fileID: 11400000, guid: ddef9eb1867aea44f9aae4e3b480ed0b, type: 2}
-  shootingCooldown: 0.95
-  damage: 5
+  shootingCooldown: 1
+  damage: 4
   pierce: 100
   projectileSpeed: 1000
   balloonsPopped: {fileID: 0}
@@ -635,6 +634,8 @@ MonoBehaviour:
   _controller: {fileID: 9100000, guid: e40c0addbb72d20459ce7db179b06c3c, type: 2}
   onPath1Upgrade:
   - m_PersistentCalls:
+      m_Calls: []
+  - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6206475456652965786}
         m_TargetAssemblyTypeName: UnityEngine.CircleCollider2D, UnityEngine
@@ -644,21 +645,9 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 2.5
+          m_FloatArgument: 3.2
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 6206475455198938664}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
   - m_PersistentCalls:
       m_Calls:
@@ -670,89 +659,25 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 2.7
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 6206475455198938671}
-        m_TargetAssemblyTypeName: ChangeColor, Assembly-CSharp
-        m_MethodName: ChangeToRed
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6206475455437319255}
-        m_TargetAssemblyTypeName: Gun, Assembly-CSharp
-        m_MethodName: SetActiveBullet
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 6206475456652965787}
-        m_TargetAssemblyTypeName: Towers.ShootingTower, Assembly-CSharp
-        m_MethodName: SetFiringAnimation
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: CataPultFire
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 6206475455622732003}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 6206475455198938664}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6206475455437319255}
-        m_TargetAssemblyTypeName: Gun, Assembly-CSharp
-        m_MethodName: SetActiveBullet
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
-          m_FloatArgument: 0
+          m_FloatArgument: 5
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
   onPath2Upgrade:
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7961119355085755286}
+        m_TargetAssemblyTypeName: ScreamGun, Assembly-CSharp
+        m_MethodName: SetBulletMaxSize
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 3
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   - m_PersistentCalls:
       m_Calls: []
   - m_PersistentCalls:
@@ -781,8 +706,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  - m_PersistentCalls:
-      m_Calls: []
+      - m_Target: {fileID: 8712119464119958879}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   defaultRange: {fileID: 11400000, guid: e65d545a61d7f1448986d3102eca4403, type: 2}
   animationOnFire: Fire
   _extraRangeOffset: 1
@@ -864,12 +799,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7754290498406203441}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.19, y: -0.18, z: 0}
+  m_LocalPosition: {x: 0, y: -0.18, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6206475456652965785}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8221593908301797100
 MonoBehaviour:
@@ -884,7 +819,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullets:
-  - {fileID: 8447012491566630869, guid: dfc013f6df335e543924d7f33058e14e, type: 3}
+  - {fileID: 8447012491566630869, guid: 77d72f70c13dd6c41bd1964d504d8671, type: 3}
   activeBullet: 0
-  offset: 330
-  delay: 0.02
+  offset: 270
+  delay: 0.06
+--- !u!1 &8712119464119958879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2586937154919984331}
+  - component: {fileID: 1887598713388816155}
+  m_Layer: 0
+  m_Name: Gun Back
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2586937154919984331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8712119464119958879}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.18, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6206475456652965785}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1887598713388816155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8712119464119958879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26831a93286266449b1b3fce149e0ed7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullets:
+  - {fileID: 8447012491566630869, guid: 77d72f70c13dd6c41bd1964d504d8671, type: 3}
+  activeBullet: 0
+  offset: 180
+  delay: 0.04
