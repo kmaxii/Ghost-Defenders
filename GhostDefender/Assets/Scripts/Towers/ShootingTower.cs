@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using Scriptable_objects;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 namespace Towers
 {
@@ -134,8 +135,12 @@ namespace Towers
                     _targetsInRange.RemoveAt(i);
                     continue;
                 }
+
                 if (pathFollower.distanceTraveled > furthestTarget)
                 {
+                    if (!CanSeeEnemy(pathFollower))
+                        continue;
+                    
                     furthest = pathFollower.gameObject;
                     furthestTarget = pathFollower.distanceTraveled;
                 }
@@ -148,7 +153,27 @@ namespace Towers
 
             return found;
         }
-        
+
+        private bool CanSeeEnemy(PathFollower pathFollower)
+        {
+            GridManager gridManager = GridManager.Instance;
+            Tilemap tileMap = gridManager.GetTileMap("Objects");
+
+            Vector3 direction = pathFollower.transform.position - transform.position;
+
+            float distance = direction.magnitude;
+            direction.Normalize();
+            
+            for (float i = 0.5f; i < distance * 2; i += 0.5f)
+            {
+                if (tileMap.HasTile(tileMap.layoutGrid.WorldToCell(direction * i)))
+                    return false;
+            }
+
+            return true;
+
+
+        }
         private void PrepareShoot()
         {
             if (!furthestInRange.activeSelf)

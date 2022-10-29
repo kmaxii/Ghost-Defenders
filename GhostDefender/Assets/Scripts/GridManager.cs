@@ -56,4 +56,9 @@ public class GridManager : MonoBehaviour
 
         return false;
     }
+    
+    public Tilemap GetTileMap(String name)
+    {
+        return _tilemaps[name];
+    }
 }
