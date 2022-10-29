@@ -20,6 +20,6 @@ MonoBehaviour:
     defaultDelay: 0
     amount: 1
     delayBetween: 0
-    waveElement: {fileID: 11400000, guid: f228b7859b5fc6642b6adffdb2e927e5, type: 2}
+    waveElement: {fileID: 11400000, guid: 6fe8bd28c48a6b84fa61e02ccc0ca2ab, type: 2}
     isRegen: 0
     isCamo: 0

@@ -9,6 +9,6 @@ public class Balloon : Spawnable
     public Sprite camoTexture;
     public Sprite regenTexture;
     public Sprite regenCamoTexture;
- 
-    
+    public RuntimeAnimatorController animator;
+
 }

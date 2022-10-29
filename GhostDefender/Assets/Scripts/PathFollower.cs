@@ -74,6 +74,7 @@ public abstract class PathFollower : MonoBehaviour
         if (changedDirection)
         {
             movingDirection = Vector2Int.RoundToInt((newPos - position).normalized);
+            ChangedDirection();
         }
         
         MoveToPosition(newPos);
@@ -81,8 +82,11 @@ public abstract class PathFollower : MonoBehaviour
         distanceTraveled =
             ((_path[currentPos] - position).magnitude / (_path[currentPos] - _path[currentPos - 1]).magnitude) +
             currentPos;
+    }
 
-       
+    protected virtual void ChangedDirection()
+    {
+        
     }
 
     private int TotalLives

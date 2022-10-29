@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b7111192c370f24893b735bcb815ccd, type: 3}
+  m_Name: Scream Ghost
+  m_EditorClassIdentifier: 
+  path1:
+  - upgradeName: Scary Scream
+    description: Increase fear
+    upgradeImage: {fileID: 1629352093, guid: 322f13e196ec9ff4aac3518d0b516fd2, type: 3}
+    price: 750
+    attackCooldown: 0
+    damage: 3
+    pierce: 0
+    projectileSpeed: 0
+    canDetectCamosAfter: 0
+    newSprite: {fileID: 0}
+  - upgradeName: Louder Scream
+    description: Increase range and fear
+    upgradeImage: {fileID: 0}
+    price: 1200
+    attackCooldown: 0
+    damage: 3
+    pierce: 0
+    projectileSpeed: 0
+    canDetectCamosAfter: 0
+    newSprite: {fileID: 0}
+  - upgradeName: MGEAPHONE
+    description: Greatly increase range and fear
+    upgradeImage: {fileID: 0}
+    price: 3000
+    attackCooldown: 0
+    damage: 10
+    pierce: 0
+    projectileSpeed: 0
+    canDetectCamosAfter: 0
+    newSprite: {fileID: 0}
+  path2:
+  - upgradeName: Wider Scream
+    description: Increase Scream AOE
+    upgradeImage: {fileID: 0}
+    price: 400
+    attackCooldown: 0
+    damage: 0
+    pierce: 0
+    projectileSpeed: 0
+    canDetectCamosAfter: 0
+    newSprite: {fileID: 0}
+  - upgradeName: Faster Scream
+    description: Increase Scream Rate
+    upgradeImage: {fileID: 0}
+    price: 1000
+    attackCooldown: -0.5
+    damage: 0
+    pierce: 0
+    projectileSpeed: 0
+    canDetectCamosAfter: 0
+    newSprite: {fileID: 0}
+  - upgradeName: 4 FACED
+    description: Add 3 small extra faces and increase Scream Rate
+    upgradeImage: {fileID: 0}
+    price: 2000
+    attackCooldown: -0.2
+    damage: 0
+    pierce: 0
+    projectileSpeed: 0
+    canDetectCamosAfter: 0
+    newSprite: {fileID: 0}

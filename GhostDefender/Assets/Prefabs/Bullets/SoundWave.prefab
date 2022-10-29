@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 8447012491566630869}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -125,7 +125,7 @@ MonoBehaviour:
   event: {fileID: 11400000, guid: 64443f448b769274b86023de7fb5866f, type: 2}
   animationOnHit: {fileID: 11400000, guid: 8bf007af0c1b1d140a44d927ed84f901, type: 2}
   attributes: []
-  maxScale: 5
+  maxScale: 4
 --- !u!61 &4083266391159633133
 BoxCollider2D:
   m_ObjectHideFlags: 0
