@@ -27,7 +27,7 @@ MonoBehaviour:
     delayToStart: 0
     useDefaultDelay: 0
     defaultDelay: 0
-    amount: 50
+    amount: 30
     delayBetween: 0.1
     waveElement: {fileID: 11400000, guid: 82c3e1a0adc7fd64591348333c8e712d, type: 2}
     isRegen: 0
@@ -36,7 +36,7 @@ MonoBehaviour:
     delayToStart: 0
     useDefaultDelay: 0
     defaultDelay: 0
-    amount: 30
+    amount: 20
     delayBetween: 0.1
     waveElement: {fileID: 11400000, guid: 8df97429444d212409120391573d300d, type: 2}
     isRegen: 0

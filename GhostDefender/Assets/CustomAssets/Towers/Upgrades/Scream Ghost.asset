@@ -36,7 +36,7 @@ MonoBehaviour:
   - upgradeName: MGEAPHONE
     description: Greatly increase range and fear
     upgradeImage: {fileID: 0}
-    price: 3000
+    price: 4000
     attackCooldown: 0
     damage: 10
     pierce: 0
@@ -67,7 +67,7 @@ MonoBehaviour:
   - upgradeName: 4 FACED
     description: Add 3 small extra faces and increase Scream Rate
     upgradeImage: {fileID: 0}
-    price: 2000
+    price: 4000
     attackCooldown: -0.2
     damage: 0
     pierce: 0
