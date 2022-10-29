@@ -56,6 +56,17 @@ public class PrefabEnemyMono : PathFollower
         spawnable = blimp;
     }
 
+    public override void Damage(int amount, BalloonAttribute[] attributes)
+    {
+        base.Damage(amount, attributes);
+        _spriteRenderer.color = Color.gray;
+        Invoke(nameof(ResetColor), 0.2f);
+    }
+
+    private void ResetColor()
+    {
+        _spriteRenderer.color = Color.white;
+    }
 
     protected override void Died()
     {
