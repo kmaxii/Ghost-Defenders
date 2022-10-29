@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -4170,7 +4170,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HauntedHouseTileSheet5_89: -78816270
+      HauntedHouseTileSheet5_156: -1092008858
       HauntedHouseTileSheet5_101: 1875720154
       HauntedHouseTileSheet5_151: 134178356
       HauntedHouseTileSheet5_104: 1129956380
@@ -4361,7 +4361,7 @@ TextureImporter:
       HauntedHouseTileSheet5_64: -330683160
       HauntedHouseTileSheet5_15: 808317827
       HauntedHouseTileSheet5_127: 1265685327
-      HauntedHouseTileSheet5_156: -1092008858
+      HauntedHouseTileSheet5_89: -78816270
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,0 +1,4062 @@
+fileFormatVersion: 2
+guid: 322f13e196ec9ff4aac3518d0b516fd2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 720
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acce2bff99a7a5f419ea2a78247b51e9
+      internalID: 1838127860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 723
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e85dfb03fb189438922a17a073f7ab
+      internalID: 179988172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 759
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d193ebd50203c444a876f1af119577c8
+      internalID: 1824174162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 679
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcdc352a9414df4da4f068d2e3b8257
+      internalID: -179432945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_4
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 725
+        width: 96
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884ac094af03c364e964757bdbb7147a
+      internalID: -1899569831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_5
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 723
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd642d93a867fe542aba8a6bfb5c44e4
+      internalID: 557410984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_6
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 678
+        width: 42
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ce44608c110d548b9932db584cf1ba
+      internalID: -230263594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_7
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 732
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e9d4c8588d0a34fa0b4eb73126fd60
+      internalID: -656606985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_8
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 745
+        width: 47
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99236fccd26f4c743ba1fa0d9e496c3d
+      internalID: -1922220586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_9
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 725
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999784a2ae6ca4b46a1e7bee504ddbca
+      internalID: -921243772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_10
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 722
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9776242674e00734cbc9abb8a9cb15d9
+      internalID: 924232084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_11
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 743
+        width: 91
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01e06cbbfbb536459d4415242ba65f0
+      internalID: 665565335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_12
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 726
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b4ad67bb8881a49b023b516a398ca7
+      internalID: 1976818449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_13
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 730
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2cdc03d625c464b8977dbb05e38a14
+      internalID: 950895242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_14
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 735
+        width: 91
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01790f998234b341a41756ade7a30b4
+      internalID: 873351943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_15
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 726
+        width: 91
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521f96f8f82836544a1f1a58bf69ce42
+      internalID: 1149435633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 627
+        width: 41
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75774ba201fe2c840bfa2ff867773935
+      internalID: -968907083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_17
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 700
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489edbfb93074024187d022c91b8dc84
+      internalID: 97572113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 672
+        width: 93
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9e997a809a1b244936dee19901e4dc
+      internalID: -2054756978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_19
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 668
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a85e7bb6efac644aaafea78d5722a13
+      internalID: 1960466557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_20
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 704
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6522645d7793ba748b0e2c0e9845f0cd
+      internalID: -1481696704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_21
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 678
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce9b417340ac0a46acaf0d268d9d7c2
+      internalID: -1965285493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_22
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 673
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ec5dc890bf8314e8e274988eef2e92
+      internalID: -2106502659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_23
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 677
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dbe0bc9d0af0e498f30f1c82350e19
+      internalID: -80266624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_24
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 676
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eef1e9b521b8b9439952e63b5c7a7d8
+      internalID: -703209056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_25
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 679
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8084781cbb1f1b4a9cc4c6cfc7a727a
+      internalID: -339221565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_26
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 677
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f863fd7399fac4d4886048b3f28afda5
+      internalID: 1542198653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_27
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 675
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4675a6dca3a031247a2a67a19b794d49
+      internalID: -1773054716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_28
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 672
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19973cec38d181a46bbf856734041a6c
+      internalID: 59439091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_29
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 675
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808b672240f1c114d9571510bca41d64
+      internalID: -952329946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_30
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 624
+        width: 142
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313a59b10912f1b49887e0b17656dd70
+      internalID: -784547219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_31
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 667
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3652fc1bc371e2e4ba72cc750f6c42ec
+      internalID: -178393676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 668
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f594984066da64dbb7f447714ee1d6
+      internalID: 555504738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_33
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 634
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3b24631c47ec64cb42a02dedc528e8
+      internalID: -541742763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_34
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 632
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b875ec7cdeb0c5f4180f94569e7db06f
+      internalID: 1475059030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_35
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 628
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba0e03ad438df640971e823b5ecd697
+      internalID: 160740636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_36
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 625
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5edda5adad12346ab00b351b474cf8
+      internalID: 1160485006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_37
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 625
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52692f0af38109846aba6b968bcc89fc
+      internalID: -1865184424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_38
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 626
+        width: 13
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f9ecab1974aaf4f808e238e397222a
+      internalID: -2003917790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_39
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 625
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478f7e8ff63a4c34dba7ca87bfd7895a
+      internalID: 1560744817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_40
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 628
+        width: 15
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de00f78c845d89c4a9510f3de7c502a1
+      internalID: -1828886251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_41
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 627
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4e189f242344c48a29aaecdb34362e
+      internalID: 1596353849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_42
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 624
+        width: 10
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaec23fc3a18f243abee35b7da4f875
+      internalID: 1538324088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_43
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 627
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a7ce8e385b390458d982ed42ff1d6a
+      internalID: 1933665309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 634
+        width: 96
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccbb7a3b4e07754f9676e025fa5459c
+      internalID: 1588451254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_45
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 630
+        width: 13
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d197ad738e4974ea2eaacfd8accbd6
+      internalID: -308035415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_46
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 626
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fee5da429aa1384b87ee4279d5ad50b
+      internalID: 1527652421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_47
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 626
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12279a49ec814d448b88e95def659669
+      internalID: -1861530675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_48
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 627
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8ea54f04caaee4fa0982cd4d8ef9d2
+      internalID: 15924514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_49
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 626
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780cde3453810484c969c72a538378ec
+      internalID: 1474542775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_50
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 581
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2e5313660b0fa41841a2006ca6bdfb
+      internalID: 160680994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_51
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 575
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657094fe713fe444ab00149d2610813c
+      internalID: 72950945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_52
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 577
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a8dbd2c1739e148a5b68cbc05541cb
+      internalID: -2080898011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_53
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 579
+        width: 14
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04a4ee42c997f743a7bbc3028c97866
+      internalID: 72298137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_54
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 578
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9530d4283d1d9034db31586cd8e445a6
+      internalID: 1725153034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_55
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 579
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f34caf30348024ea727459de3d1a8b
+      internalID: 740058358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_56
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 605
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d072f929c76bbd346afaa880ae391d06
+      internalID: -2103623583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_57
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 603
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e667a3bc40619943965986fbe12daba
+      internalID: -289439484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_58
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 605
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6aa7ce428a40a8419dfd99d6af4cf77
+      internalID: 38989357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_59
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 540
+        width: 45
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b8b1b9f4433824d80f4ec460a5869a
+      internalID: 2131621936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_60
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 576
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e2c85fd361c9d4bb279b0fe02fa668
+      internalID: 1015080840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_61
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 590
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7622701b140b4ab4c9a15af6f9dc4cad
+      internalID: -921113399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_62
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 590
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29786e575cdf4624bb035c1d2e3b2f26
+      internalID: 1773761050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_63
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 591
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727f43c7308f0a54ca353549b04c75c4
+      internalID: -742098641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_64
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 587
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca38dca9e7d6b644ab9de27d863c1b3
+      internalID: -1817060785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_65
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 587
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e71ad950d87b0d4bb8251cc17b19c25
+      internalID: -2094532238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_66
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 587
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0c4429ccdcbb44687fd3aed85809eb
+      internalID: 1763337146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_67
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 579
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d699f3e17d58a5c48a003183d0040703
+      internalID: -482227173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_68
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 579
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471e58122c00cf445bb6ca1a5405d5c8
+      internalID: -1555047846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_69
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 577
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6046b0416f88787489f0b73cd56ab61b
+      internalID: 1629352093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_70
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 582
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcddb0a96b3942439342daa8bad531c
+      internalID: 1769232040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_71
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 577
+        width: 49
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868ac9ba1bb1e7c4fa26cc2ee6a7a6e6
+      internalID: 2006652524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 536
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af98111490b4e92488d1ca5e8655a864
+      internalID: 720162019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_73
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 531
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3336ed99031cf3498811b0ddf00c1cd
+      internalID: 931586424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_74
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 530
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6465bc63c6f783e47b3cf55257a3d316
+      internalID: -137387108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_75
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 531
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ee55471b495c54da9b3b615987bcff
+      internalID: 40568696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 535
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6608ee0464dd1ce428ff34aaa769d46e
+      internalID: 1731580472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_77
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 528
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d01e5202d36da741bc7f98df70ddc50
+      internalID: -703676024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_78
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 533
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cd1566239e1364e9888b3be381b286
+      internalID: 120587131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_79
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 531
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cf4c13c65b400429d1aba0d1288a83
+      internalID: -1488731087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_80
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 531
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64eaa8c84d970145a7e7977e8fcdad6
+      internalID: 1151743881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_81
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 531
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f3861981ff86e41affe4ace29404a1
+      internalID: -395201148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_82
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 531
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353ceebf4da263541a83cc7ab68e3a2d
+      internalID: 2092385413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_83
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 531
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc5372dd6cb7dc4f95f05f084d72c4f
+      internalID: -453870720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_84
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 531
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8d1e8070943ac45b9a5951efa99109
+      internalID: 19444579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_85
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 531
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274ef9c2c1f05864bbaaa0cc362b9775
+      internalID: -682115390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_86
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 531
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a28a2a21dcf69b40aae9bdf0ce88d76
+      internalID: -485084570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_87
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 487
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a380ee77f3fcea40a7341261ed097aa
+      internalID: -842137002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_88
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 490
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62758ce61a2efa043b77fb9c8ed4f2cf
+      internalID: 1723140504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_89
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 481
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06915b6665a4db49a8c9c7fe82f067e
+      internalID: 1877102274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_90
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 481
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677d78507c5451a4fb3900256b7c92b4
+      internalID: 908984996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_91
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 488
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15874a6c3bff5c4ca910d281d018476
+      internalID: -1510483619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_92
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 489
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663114c3d0054f5479acbec52efbaf05
+      internalID: -782228366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_93
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 491
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dd526acd2cfc94fa5450e2f5b29458
+      internalID: -410926015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_94
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 485
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1626e113c530f4bbda0c1ce4a7cd97
+      internalID: -2113243794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_95
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 432
+        width: 47
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f04410b70d1994abc6f0b5153f57ec
+      internalID: 489611765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_96
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 432
+        width: 96
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0ec1ebbe2e59b41b66c2095650a4fa
+      internalID: 1577536737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_97
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 432
+        width: 48
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f55a95f49cfc146b40b531607438bd
+      internalID: 987188265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_98
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 314
+        width: 47
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63e5480d0b7e7942a29bfadb8ade1c9
+      internalID: 58636147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_99
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 314
+        width: 47
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23a1bd0d8fcc9949920636debacea4c
+      internalID: -1256614403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_100
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 433
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dec2c867f12044f8b4397b5461f7b5
+      internalID: 1362118602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_101
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 433
+        width: 45
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e977119ba76e2a4982d68e3a25651dc
+      internalID: 1406239396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_102
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 462
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d97e1f5c0781ee48ad5a6ceaecc1f77
+      internalID: -1399401756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_103
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 444
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f64bda3ee317c944b124e8ff98f7028
+      internalID: 117609602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_104
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 450
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63eb9211991bd5e4ab271f324d68c709
+      internalID: 832130969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_105
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 465
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9286e0e542428824f9b813f84e3fd7d9
+      internalID: -1659864162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_106
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 439
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a40a4a9c3fb5a4b930c6a8b3a809af
+      internalID: 1445510216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_107
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 435
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0ccdf24d290414096e3bc3ba20603a
+      internalID: 855092859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_108
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 432
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7378644623a41d4449b0873a29774d20
+      internalID: -2069098897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_109
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 435
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f687a31ecf4764f97134ccff7bcabf
+      internalID: 655498539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_110
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 440
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035b7628bfd90a242b8acaae5b45f509
+      internalID: -1128139988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_111
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 438
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c13e4c3d2a0694db0dfbb4ac52cbe9
+      internalID: -1174236284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_112
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 440
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7dead83ef45344ba87fa02a4c97524
+      internalID: 2108202558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_113
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 397
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e1cf8e63cc8d843ad75c40e36099ae
+      internalID: 75378169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_114
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 401
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0ffe7f2544f8e43b3d69fa481ea1f5
+      internalID: 1641976012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_115
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 398
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb2be9d82cf0ff4d9738e282c03c300
+      internalID: -701245275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_116
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 398
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ee9646eb11316419677f3fd328c272
+      internalID: 352739871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_117
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 397
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfb8cccbbb0bf5499bd0222cc81a299
+      internalID: 439217829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_118
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 400
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5e3fce8b446f3459c11865e56c66eb
+      internalID: 1418840504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_119
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 387
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfddbb3e644f0540824efc207b3aea3
+      internalID: 428103626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_120
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 387
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66007299e3427ac40a8fafa24fca9abf
+      internalID: 1346820932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_121
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 340
+        width: 119
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9577524d40b7e409141d7cd21358bd
+      internalID: 1945426808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_122
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 315
+        width: 44
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0f0816a0af8ff4caac5eb510b07be9
+      internalID: -2114778406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_123
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 314
+        width: 47
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c17bc741c8c533478fcb726cde064ac
+      internalID: -296989066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_124
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 345
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906a887ffbe39994d9d572f1eb5ae199
+      internalID: -229815059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_125
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 349
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2935f078d3045243b872c6f166bcde0
+      internalID: -1255160003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_126
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 350
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9370e763b2b9f4098236d3ea2d515b
+      internalID: -902106860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_127
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 350
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500b57f4c2db6b84a9659c962c86351e
+      internalID: 399421621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_128
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 344
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e63aecf464db544da3066e994d40d58
+      internalID: -721755047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_129
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 349
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce722c818f0cecf4da2eb6e74b105da0
+      internalID: -1423709967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_130
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 339
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d609d4177ea47ca449eac981cb1c7af7
+      internalID: -583535066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_131
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 339
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3425eb117e0f11b4f98e8b9eedec8f2d
+      internalID: 831650125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_132
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 340
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb9edd0c00931346ba37efb4ac012a9
+      internalID: 1955105090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_133
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 296
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef9886341105ef469bc4f0d698c0855
+      internalID: -1691513776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_134
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 298
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106a0708f03b21e4fbaa0dffb702a740
+      internalID: 1838525466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_135
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 294
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345bfe24190e7ee46b112d0e69ec72c4
+      internalID: -830862274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_136
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 291
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d682416d443958740985d000807270c0
+      internalID: -916819923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_137
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 296
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc0c402c79545c49948163770045c27
+      internalID: 219170091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_138
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 304
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a79142e6f5a504c94df9b4e9d6eb9d
+      internalID: 168697807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_139
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 290
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0f13e50b6034141887eb7436d156d2
+      internalID: 1675119403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_140
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 290
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482810e9809e10347b4d4ce40d1dc06e
+      internalID: 971584687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_141
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 291
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e513e73c007922344ac14103828d52b8
+      internalID: -976469110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_142
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 291
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1466efecc2e4424984d9a7bc7b6764d
+      internalID: -263853121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_143
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 291
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8431d94a1d4daa64ca6736d87a00cfa9
+      internalID: -1991760814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_144
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 291
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb632258ff22b85478d0c0a2c9bd1056
+      internalID: 2059679491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_145
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 245
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704c8705c5943b746abf9ed60cecd3c2
+      internalID: 2034994585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_146
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 253
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1d9542bcdebc143835d52684bd390b
+      internalID: 706144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_147
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 243
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10117bb0aca684f42b87379b1b7c5249
+      internalID: -102781020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_148
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 243
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9438de644ff07604c8f3007badecb0bd
+      internalID: 196464279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_149
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 249
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1171c3f4669fc448c2381ea6619260
+      internalID: -474388134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_150
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 247
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4c974ccbb687945a7a60eda38c6fda
+      internalID: -433772127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_151
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 247
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fecc0c8d0704754787198c6d55d4751
+      internalID: -941341994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_152
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 249
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858e68380fa152d46a8a3187b355d98c
+      internalID: 136303053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_153
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 192
+        width: 47
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed08a95a4744ed46a347e7167255f20
+      internalID: -775487492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_154
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 192
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda3a03c3c5c3a04698c5b8be620b2e4
+      internalID: 1072707808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_155
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a71ea13789d344080579b9cb8e4480
+      internalID: 2020656879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_156
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 195
+        width: 108
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192fdd193dd6a7b46a9af14d9316cbe2
+      internalID: -1667547927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_157
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 205
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e606a75a56e55434795aa4f4354941a7
+      internalID: 282541075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_158
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 204
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3da79386da0a0438598a17713eddd3
+      internalID: 1322834625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_159
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 204
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16099abe3d7a75a4085511588c2c218a
+      internalID: 948464166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_160
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 208
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247764fd3b9e2704ba67ca699cdb3e7d
+      internalID: 2057259311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_161
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 206
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb09624fc045a294a8ba81437f3cbc31
+      internalID: 719312274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_162
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 206
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae23806fb0474f3459fa2a0b455f19b7
+      internalID: -66764140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_163
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 206
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0cd1c5878b5874abd441ee17079fd2
+      internalID: 590856681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_164
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 206
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adaa958b9ff7fc41b16b0aa8c61942c
+      internalID: -1241269566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_165
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 163
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8fb7c517090c540abb8cfea61b5ee3
+      internalID: 560627744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_166
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 148
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6ceb82b1c9c6148b7ba1f1cac69719
+      internalID: 1932986643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_167
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 146
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bd9315ff406af44a9289cd4d309f24
+      internalID: -1277856648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_168
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 0
+        width: 623
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca220107c409d14b83a8e613aca5142
+      internalID: -994687099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_169
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 100
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccafca805359b484eb5f258340496fba
+      internalID: -131809813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_170
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 100
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f2b257c50ab854db489e5feafc95a6
+      internalID: -640617605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_171
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 100
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a566b886a3f47df4c874221b5f97a5e6
+      internalID: -1941831999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_172
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 53
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bb33bbf3c54db47971af9e34551a3a
+      internalID: 1425353652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_173
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 53
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88681635af5b5a644a82d5ed50f4bfe8
+      internalID: -151690253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_174
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 53
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a174a2255e3937542990f123a25582c7
+      internalID: -1176202961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_175
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d86fa61a5762a4d92c6a2238e4f2aa
+      internalID: 388775178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_176
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 5
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e2eee4af5a1ea44aff80722962fa2f
+      internalID: 1881332388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2HauntedHouseTileSheet_177
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2465e4041cf0b2e41ae8376f86705476
+      internalID: -631209586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      2HauntedHouseTileSheet_82: 2092385413
+      2HauntedHouseTileSheet_117: 439217829
+      2HauntedHouseTileSheet_33: -541742763
+      2HauntedHouseTileSheet_5: 557410984
+      2HauntedHouseTileSheet_2: 1824174162
+      2HauntedHouseTileSheet_91: -1510483619
+      2HauntedHouseTileSheet_67: -482227173
+      2HauntedHouseTileSheet_105: -1659864162
+      2HauntedHouseTileSheet_100: 1362118602
+      2HauntedHouseTileSheet_63: -742098641
+      2HauntedHouseTileSheet_8: -1922220586
+      2HauntedHouseTileSheet_29: -952329946
+      2HauntedHouseTileSheet_54: 1725153034
+      2HauntedHouseTileSheet_30: -784547219
+      2HauntedHouseTileSheet_75: 40568696
+      2HauntedHouseTileSheet_19: 1960466557
+      2HauntedHouseTileSheet_138: 168697807
+      2HauntedHouseTileSheet_111: -1174236284
+      2HauntedHouseTileSheet_143: -1991760814
+      2HauntedHouseTileSheet_163: 590856681
+      2HauntedHouseTileSheet_99: -1256614403
+      2HauntedHouseTileSheet_46: 1527652421
+      2HauntedHouseTileSheet_168: -994687099
+      2HauntedHouseTileSheet_59: 2131621936
+      2HauntedHouseTileSheet_176: 1881332388
+      2HauntedHouseTileSheet_43: 1933665309
+      2HauntedHouseTileSheet_134: 1838525466
+      2HauntedHouseTileSheet_135: -830862274
+      2HauntedHouseTileSheet_42: 1538324088
+      2HauntedHouseTileSheet_65: -2094532238
+      2HauntedHouseTileSheet_140: 971584687
+      2HauntedHouseTileSheet_173: -151690253
+      2HauntedHouseTileSheet_118: 1418840504
+      2HauntedHouseTileSheet_24: -703209056
+      2HauntedHouseTileSheet_109: 655498539
+      2HauntedHouseTileSheet_13: 950895242
+      2HauntedHouseTileSheet_132: 1955105090
+      2HauntedHouseTileSheet_77: -703676024
+      2HauntedHouseTileSheet_89: 1877102274
+      2HauntedHouseTileSheet_23: -80266624
+      2HauntedHouseTileSheet_137: 219170091
+      2HauntedHouseTileSheet_81: -395201148
+      2HauntedHouseTileSheet_145: 2034994585
+      2HauntedHouseTileSheet_152: 136303053
+      2HauntedHouseTileSheet_175: 388775178
+      2HauntedHouseTileSheet_96: 1577536737
+      2HauntedHouseTileSheet_97: 987188265
+      2HauntedHouseTileSheet_14: 873351943
+      2HauntedHouseTileSheet_66: 1763337146
+      2HauntedHouseTileSheet_76: 1731580472
+      2HauntedHouseTileSheet_44: 1588451254
+      2HauntedHouseTileSheet_12: 1976818449
+      2HauntedHouseTileSheet_78: 120587131
+      2HauntedHouseTileSheet_123: -296989066
+      2HauntedHouseTileSheet_90: 908984996
+      2HauntedHouseTileSheet_130: -583535066
+      2HauntedHouseTileSheet_136: -916819923
+      2HauntedHouseTileSheet_158: 1322834625
+      2HauntedHouseTileSheet_17: 97572113
+      2HauntedHouseTileSheet_26: 1542198653
+      2HauntedHouseTileSheet_129: -1423709967
+      2HauntedHouseTileSheet_172: 1425353652
+      2HauntedHouseTileSheet_55: 740058358
+      2HauntedHouseTileSheet_56: -2103623583
+      2HauntedHouseTileSheet_156: -1667547927
+      2HauntedHouseTileSheet_10: 924232084
+      2HauntedHouseTileSheet_51: 72950945
+      2HauntedHouseTileSheet_6: -230263594
+      2HauntedHouseTileSheet_86: -485084570
+      2HauntedHouseTileSheet_106: 1445510216
+      2HauntedHouseTileSheet_165: 560627744
+      2HauntedHouseTileSheet_153: -775487492
+      2HauntedHouseTileSheet_74: -137387108
+      2HauntedHouseTileSheet_57: -289439484
+      2HauntedHouseTileSheet_121: 1945426808
+      2HauntedHouseTileSheet_72: 720162019
+      2HauntedHouseTileSheet_126: -902106860
+      2HauntedHouseTileSheet_155: 2020656879
+      2HauntedHouseTileSheet_47: -1861530675
+      2HauntedHouseTileSheet_103: 117609602
+      2HauntedHouseTileSheet_31: -178393676
+      2HauntedHouseTileSheet_68: -1555047846
+      2HauntedHouseTileSheet_154: 1072707808
+      2HauntedHouseTileSheet_151: -941341994
+      2HauntedHouseTileSheet_108: -2069098897
+      2HauntedHouseTileSheet_166: 1932986643
+      2HauntedHouseTileSheet_61: -921113399
+      2HauntedHouseTileSheet_146: 706144
+      2HauntedHouseTileSheet_159: 948464166
+      2HauntedHouseTileSheet_131: 831650125
+      2HauntedHouseTileSheet_161: 719312274
+      2HauntedHouseTileSheet_162: -66764140
+      2HauntedHouseTileSheet_28: 59439091
+      2HauntedHouseTileSheet_167: -1277856648
+      2HauntedHouseTileSheet_50: 160680994
+      2HauntedHouseTileSheet_40: -1828886251
+      2HauntedHouseTileSheet_38: -2003917790
+      2HauntedHouseTileSheet_16: -968907083
+      2HauntedHouseTileSheet_107: 855092859
+      2HauntedHouseTileSheet_150: -433772127
+      2HauntedHouseTileSheet_144: 2059679491
+      2HauntedHouseTileSheet_52: -2080898011
+      2HauntedHouseTileSheet_95: 489611765
+      2HauntedHouseTileSheet_125: -1255160003
+      2HauntedHouseTileSheet_177: -631209586
+      2HauntedHouseTileSheet_122: -2114778406
+      2HauntedHouseTileSheet_114: 1641976012
+      2HauntedHouseTileSheet_11: 665565335
+      2HauntedHouseTileSheet_21: -1965285493
+      2HauntedHouseTileSheet_64: -1817060785
+      2HauntedHouseTileSheet_15: 1149435633
+      2HauntedHouseTileSheet_18: -2054756978
+      2HauntedHouseTileSheet_60: 1015080840
+      2HauntedHouseTileSheet_3: -179432945
+      2HauntedHouseTileSheet_79: -1488731087
+      2HauntedHouseTileSheet_36: 1160485006
+      2HauntedHouseTileSheet_148: 196464279
+      2HauntedHouseTileSheet_34: 1475059030
+      2HauntedHouseTileSheet_133: -1691513776
+      2HauntedHouseTileSheet_32: 555504738
+      2HauntedHouseTileSheet_87: -842137002
+      2HauntedHouseTileSheet_110: -1128139988
+      2HauntedHouseTileSheet_84: 19444579
+      2HauntedHouseTileSheet_157: 282541075
+      2HauntedHouseTileSheet_92: -782228366
+      2HauntedHouseTileSheet_69: 1629352093
+      2HauntedHouseTileSheet_169: -131809813
+      2HauntedHouseTileSheet_0: 1838127860
+      2HauntedHouseTileSheet_119: 428103626
+      2HauntedHouseTileSheet_22: -2106502659
+      2HauntedHouseTileSheet_128: -721755047
+      2HauntedHouseTileSheet_71: 2006652524
+      2HauntedHouseTileSheet_83: -453870720
+      2HauntedHouseTileSheet_1: 179988172
+      2HauntedHouseTileSheet_115: -701245275
+      2HauntedHouseTileSheet_94: -2113243794
+      2HauntedHouseTileSheet_49: 1474542775
+      2HauntedHouseTileSheet_93: -410926015
+      2HauntedHouseTileSheet_102: -1399401756
+      2HauntedHouseTileSheet_171: -1941831999
+      2HauntedHouseTileSheet_37: -1865184424
+      2HauntedHouseTileSheet_53: 72298137
+      2HauntedHouseTileSheet_88: 1723140504
+      2HauntedHouseTileSheet_35: 160740636
+      2HauntedHouseTileSheet_20: -1481696704
+      2HauntedHouseTileSheet_116: 352739871
+      2HauntedHouseTileSheet_113: 75378169
+      2HauntedHouseTileSheet_4: -1899569831
+      2HauntedHouseTileSheet_7: -656606985
+      2HauntedHouseTileSheet_142: -263853121
+      2HauntedHouseTileSheet_25: -339221565
+      2HauntedHouseTileSheet_45: -308035415
+      2HauntedHouseTileSheet_39: 1560744817
+      2HauntedHouseTileSheet_104: 832130969
+      2HauntedHouseTileSheet_80: 1151743881
+      2HauntedHouseTileSheet_160: 2057259311
+      2HauntedHouseTileSheet_70: 1769232040
+      2HauntedHouseTileSheet_62: 1773761050
+      2HauntedHouseTileSheet_170: -640617605
+      2HauntedHouseTileSheet_120: 1346820932
+      2HauntedHouseTileSheet_58: 38989357
+      2HauntedHouseTileSheet_112: 2108202558
+      2HauntedHouseTileSheet_73: 931586424
+      2HauntedHouseTileSheet_98: 58636147
+      2HauntedHouseTileSheet_124: -229815059
+      2HauntedHouseTileSheet_9: -921243772
+      2HauntedHouseTileSheet_149: -474388134
+      2HauntedHouseTileSheet_141: -976469110
+      2HauntedHouseTileSheet_41: 1596353849
+      2HauntedHouseTileSheet_85: -682115390
+      2HauntedHouseTileSheet_164: -1241269566
+      2HauntedHouseTileSheet_48: 15924514
+      2HauntedHouseTileSheet_147: -102781020
+      2HauntedHouseTileSheet_127: 399421621
+      2HauntedHouseTileSheet_101: 1406239396
+      2HauntedHouseTileSheet_139: 1675119403
+      2HauntedHouseTileSheet_27: -1773054716
+      2HauntedHouseTileSheet_174: -1176202961
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
