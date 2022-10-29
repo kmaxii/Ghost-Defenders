@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Scriptable_objects;
 using UnityEngine;
@@ -12,6 +13,7 @@ public class BalloonMono : PathFollower
 
     [SerializeField] private float timeToRegenDefault;
     private float _timeToRegen;
+    
 
     public void ResetHasGottenMoneyFrom()
     {
@@ -29,7 +31,6 @@ public class BalloonMono : PathFollower
 
         _balloon = null;
     }
-    
     
 
     public void SetUp(Balloon balloon, bool isCamo, bool isRegen)
@@ -54,6 +55,7 @@ public class BalloonMono : PathFollower
         _timeToRegen = timeToRegenDefault;
         spawnable = _balloon;
     }
+    
 
     // Update is called once per frame
     protected override void Update()

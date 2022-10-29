@@ -111,10 +111,10 @@ public class Spawner : MonoBehaviour, IChildFinished, IEventListenerInterface
 
         if (spawnable is Blimp blimp)
         {
-            BlimpMono blimpMono = Instantiate(blimp.blimp).GetComponent<BlimpMono>();
-            blimpMono.Path = _path;
-            blimpMono.transform.position = transform.position;
-            blimpMono.SetUp(blimp, isCamo, isRegen);
+            PrefabEnemyMono prefabEnemyMono = Instantiate(blimp.blimp).GetComponent<PrefabEnemyMono>();
+            prefabEnemyMono.Path = _path;
+            prefabEnemyMono.transform.position = transform.position;
+            prefabEnemyMono.SetUp(blimp, isCamo, isRegen);
             return;
         }
 
