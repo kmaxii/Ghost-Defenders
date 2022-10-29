@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0f0563de87246caa899c12be8030548, type: 3}
   m_Name: 2Teen
   m_EditorClassIdentifier: 
-  lives: 25
-  speed: 1
+  lives: 40
+  speed: 0.8
   spawnOnDeath: {fileID: 0}
-  moneyOnPop: 50
+  moneyOnPop: 75
   mustHaveToPop: []
   cantHaveToPop: []
   damageModifier: []

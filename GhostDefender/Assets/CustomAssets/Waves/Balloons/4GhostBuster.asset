@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0f0563de87246caa899c12be8030548, type: 3}
   m_Name: 4GhostBuster
   m_EditorClassIdentifier: 
-  lives: 100
-  speed: 1
+  lives: 1000
+  speed: 0.3
   spawnOnDeath: {fileID: 0}
   moneyOnPop: 200
   mustHaveToPop: []

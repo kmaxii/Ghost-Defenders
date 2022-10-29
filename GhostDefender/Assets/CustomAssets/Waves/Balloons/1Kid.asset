@@ -15,7 +15,7 @@ MonoBehaviour:
   lives: 10
   speed: 1
   spawnOnDeath: {fileID: 0}
-  moneyOnPop: 20
+  moneyOnPop: 25
   mustHaveToPop: []
   cantHaveToPop: []
   damageModifier: []
