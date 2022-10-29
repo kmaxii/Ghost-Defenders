@@ -124,6 +124,7 @@ MonoBehaviour:
   audioEvent: {fileID: 11400000, guid: cfb7d1b1981231242aeefe5e49fbcef1, type: 2}
   event: {fileID: 11400000, guid: 64443f448b769274b86023de7fb5866f, type: 2}
   animationOnHit: {fileID: 11400000, guid: 8bf007af0c1b1d140a44d927ed84f901, type: 2}
+  attributes: []
 --- !u!61 &4083266391159633133
 BoxCollider2D:
   m_ObjectHideFlags: 0
