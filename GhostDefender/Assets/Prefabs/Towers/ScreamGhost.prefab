@@ -366,7 +366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullets:
-  - {fileID: 8447012491566630869, guid: dfc013f6df335e543924d7f33058e14e, type: 3}
+  - {fileID: 8447012491566630869, guid: 77d72f70c13dd6c41bd1964d504d8671, type: 3}
   - {fileID: 8447012491566630869, guid: 3f7abb779c54bce43b999817569871d4, type: 3}
   - {fileID: 8447012491566630869, guid: e906cb214ae970e45b60c0c284a50c02, type: 3}
   activeBullet: 0
@@ -607,7 +607,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 2.3
+  m_Radius: 2.33
 --- !u!114 &6206475456652965787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -627,9 +627,9 @@ MonoBehaviour:
   money: {fileID: 11400000, guid: 1ed0aff7ea52c294c907c6b53927c157, type: 2}
   shopElement: {fileID: 11400000, guid: ddef9eb1867aea44f9aae4e3b480ed0b, type: 2}
   shootingCooldown: 0.95
-  damage: 1
-  pierce: 1
-  projectileSpeed: 2000
+  damage: 5
+  pierce: 100
+  projectileSpeed: 1000
   balloonsPopped: {fileID: 0}
   _totalMoneySpentOnThisTower: 0
   _controller: {fileID: 9100000, guid: e40c0addbb72d20459ce7db179b06c3c, type: 2}
@@ -816,7 +816,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6206475457069416283}
   m_Layer: 0
-  m_Name: DartMonkey
+  m_Name: ScreamGhost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

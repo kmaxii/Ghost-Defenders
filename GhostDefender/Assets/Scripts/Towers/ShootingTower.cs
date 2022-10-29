@@ -33,7 +33,7 @@ namespace Towers
 
         [SerializeField] private String animationOnFire;
 
-        private float _extraRangeOffset = 1f;
+        [SerializeField] private float _extraRangeOffset = 1f;
         // Start is called before the first frame update
         void Start()
         {

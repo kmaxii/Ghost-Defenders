@@ -71,7 +71,7 @@ public class Bullet : MonoBehaviour
         }
         return mustHaveContains == spawnable.mustHaveToPop.Length;
     }
-    private void FixedUpdate()
+    protected virtual void FixedUpdate()
     {
         if ((_startingPos - transform.position).sqrMagnitude > _maxRange * _maxRange)
         {
