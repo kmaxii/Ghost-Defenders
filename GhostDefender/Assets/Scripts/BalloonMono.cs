@@ -1,10 +1,6 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using Scriptable_objects;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Pool;
 
 public class BalloonMono : PathFollower
 {
@@ -38,7 +34,7 @@ public class BalloonMono : PathFollower
 
     public void SetUp(Balloon balloon, bool isCamo, bool isRegen)
     {
-        _lives = balloon.lives;
+        lives = balloon.lives;
         if (isCamo)
         {
             _spriteRenderer.sprite = isRegen ? balloon.regenCamoTexture : balloon.camoTexture;
@@ -104,11 +100,11 @@ public class BalloonMono : PathFollower
 
             if (_balloon.spawnOnDeath is Balloon newBalloon)
             {
-                if (_lives < 0)
+                if (lives < 0)
                 {
-                    while (newBalloon.lives + _lives <= 0)
+                    while (newBalloon.lives + lives <= 0)
                     {
-                        _lives += newBalloon.lives;
+                        lives += newBalloon.lives;
                         money.Value += newBalloon.moneyOnPop;
                         if (newBalloon.spawnOnDeath)
                         {

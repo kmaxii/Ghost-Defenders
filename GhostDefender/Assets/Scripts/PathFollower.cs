@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Scriptable_objects;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public abstract class PathFollower : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public abstract class PathFollower : MonoBehaviour
         set => _path = value;
     }
 
-    protected int _lives = 1;
+    [HideInInspector] public int lives = 1;
     [SerializeField] protected IntVariable playerLives;
     [SerializeField] protected IntVariable money;
     [SerializeField] public SetReference balloonsSet;
@@ -75,7 +76,7 @@ public abstract class PathFollower : MonoBehaviour
     {
         get
         {
-            int total = _lives;
+            int total = lives;
             total += GetChildLives(spawnable.spawnOnDeath);
             return total;
         }
@@ -123,8 +124,8 @@ public abstract class PathFollower : MonoBehaviour
             }
         }
         
-        _lives -= amount;
-        if (_lives <= 0)
+        lives -= amount;
+        if (lives <= 0)
         {
             Died();
         }
@@ -139,7 +140,7 @@ public abstract class PathFollower : MonoBehaviour
             ConvertWaveElementQueueToBalloons(new Queue<WaveElementWithDelay>(balloonCombination.combination));
 
         //Split the damage between all spawned balloons
-        int damageToDeal = _lives / balloonsToSpawn.Count;
+        int damageToDeal = lives / balloonsToSpawn.Count;
 
         float distance = 1f;
 

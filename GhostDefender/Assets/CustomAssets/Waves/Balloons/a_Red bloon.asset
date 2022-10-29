@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25922abbd2fbae749b7f6f87a9430550, type: 3}
   m_Name: a_Red bloon
   m_EditorClassIdentifier: 
-  lives: 1
+  lives: 10
   speed: 1
   spawnOnDeath: {fileID: 0}
   moneyOnPop: 1

@@ -36,7 +36,7 @@ public class BlimpMono : PathFollower
     }
     public void SetUp(Blimp blimp, bool isCamo, bool isRegen)
     {
-        _lives = blimp.lives;
+        lives = blimp.lives;
 
         _isCamo = isCamo;
         _isRegen = isRegen;
@@ -64,15 +64,15 @@ public class BlimpMono : PathFollower
 
         if (spawnable.spawnOnDeath is Balloon newBalloon)
         {
-            if (_lives >= 0)
+            if (lives >= 0)
             {
                 Spawner.Instance.InstantiateBalloon(newBalloon, _isCamo, _isRegen);
                 return;
             }
             
-            while (newBalloon.lives + _lives <= 0)
+            while (newBalloon.lives + lives <= 0)
             {
-                _lives += newBalloon.lives;
+                lives += newBalloon.lives;
                 money.Value += newBalloon.moneyOnPop;
                 if (newBalloon.spawnOnDeath)
                 {
@@ -95,9 +95,9 @@ public class BlimpMono : PathFollower
     public override void Damage(int amount, BalloonAttribute[] attribute)
     {
         base.Damage(amount, null);
-        if (_lives > 0 && _changeTexture.ContainsKey(_lives))
+        if (lives > 0 && _changeTexture.ContainsKey(lives))
         {
-            _spriteRenderer.sprite = _changeTexture[_lives];
+            _spriteRenderer.sprite = _changeTexture[lives];
         }
     }
 }
