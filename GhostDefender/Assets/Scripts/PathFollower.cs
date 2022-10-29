@@ -33,6 +33,7 @@ public abstract class PathFollower : MonoBehaviour
     protected bool _isCamo;
     protected bool _isRegen;
 
+    public Vector2Int movingDirection;
 
     private void Awake()
     {
@@ -50,6 +51,8 @@ public abstract class PathFollower : MonoBehaviour
 
         var position = transform.position;
 
+        bool changedDirection = false;
+
         if (position == _path[currentPos])
         {
             currentPos++;
@@ -61,15 +64,25 @@ public abstract class PathFollower : MonoBehaviour
                 DestroyItself();
                 return;
             }
+
+            changedDirection = true;
         }
 
         Vector3 newPos = Vector3.MoveTowards(position, _path[currentPos], spawnable.speed / _speedScale);
 
+        
+        if (changedDirection)
+        {
+            movingDirection = Vector2Int.RoundToInt((newPos - position).normalized);
+        }
+        
         MoveToPosition(newPos);
 
         distanceTraveled =
             ((_path[currentPos] - position).magnitude / (_path[currentPos] - _path[currentPos - 1]).magnitude) +
             currentPos;
+
+       
     }
 
     private int TotalLives
