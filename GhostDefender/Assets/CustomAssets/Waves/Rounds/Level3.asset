@@ -14,30 +14,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultDelay: 0
   combination:
-  - afterPreviousFinished: 0
+  - afterPreviousFinished: 1
     delayToStart: 0
     useDefaultDelay: 0
     defaultDelay: 0
-    amount: 15
-    delayBetween: 0.4
-    waveElement: {fileID: 11400000, guid: 6fe8bd28c48a6b84fa61e02ccc0ca2ab, type: 2}
-    isRegen: 0
-    isCamo: 0
-  - afterPreviousFinished: 0
-    delayToStart: 5.2
-    useDefaultDelay: 0
-    defaultDelay: 0
-    amount: 5
-    delayBetween: 0.48
+    amount: 3
+    delayBetween: 0.2
     waveElement: {fileID: 11400000, guid: 6fe8bd28c48a6b84fa61e02ccc0ca2ab, type: 2}
     isRegen: 0
     isCamo: 0
   - afterPreviousFinished: 1
-    delayToStart: 1.1
+    delayToStart: 3
     useDefaultDelay: 0
     defaultDelay: 0
-    amount: 10
-    delayBetween: 0.35
-    waveElement: {fileID: 11400000, guid: f228b7859b5fc6642b6adffdb2e927e5, type: 2}
+    amount: 3
+    delayBetween: 0.2
+    waveElement: {fileID: 11400000, guid: 6fe8bd28c48a6b84fa61e02ccc0ca2ab, type: 2}
+    isRegen: 0
+    isCamo: 0
+  - afterPreviousFinished: 1
+    delayToStart: 3
+    useDefaultDelay: 0
+    defaultDelay: 0
+    amount: 3
+    delayBetween: 0.2
+    waveElement: {fileID: 11400000, guid: 6fe8bd28c48a6b84fa61e02ccc0ca2ab, type: 2}
     isRegen: 0
     isCamo: 0

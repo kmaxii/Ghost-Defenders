@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultDelay: 0
   combination:
-  - afterPreviousFinished: 0
+  - afterPreviousFinished: 1
     delayToStart: 0
     useDefaultDelay: 0
     defaultDelay: 0
-    amount: 30
-    delayBetween: 0.4
-    waveElement: {fileID: 11400000, guid: b8ce07d0b37eebb43a8d0d4391f27efa, type: 2}
+    amount: 20
+    delayBetween: 0.5
+    waveElement: {fileID: 11400000, guid: 8df97429444d212409120391573d300d, type: 2}
+    isRegen: 0
+    isCamo: 0
