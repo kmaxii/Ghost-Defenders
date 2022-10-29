@@ -57,7 +57,6 @@ namespace Towers
             balloonsPopped = ScriptableObject.CreateInstance<IntVariable>();
             balloonsPopped.Value = 0;
             balloonsPopped.raiseOnValueChanged = ScriptableObject.CreateInstance<GameEvent>();
-            Debug.Log(balloonsPopped.Value);
         }
 
 
