@@ -42,7 +42,7 @@ MonoBehaviour:
     pierce: 0
     projectileSpeed: 0
     canDetectCamosAfter: 0
-    newSprite: {fileID: 0}
+    newSprite: {fileID: 174205542, guid: fa7b8dad1f27f1946be1f6bde4eff20f, type: 3}
   path2:
   - upgradeName: Wider Scream
     description: Increase Scream AOE
@@ -73,4 +73,4 @@ MonoBehaviour:
     pierce: 0
     projectileSpeed: 0
     canDetectCamosAfter: 0
-    newSprite: {fileID: 0}
+    newSprite: {fileID: -1401620079, guid: 5e14df831f9a5a846a2be912e60f66e1, type: 3}
