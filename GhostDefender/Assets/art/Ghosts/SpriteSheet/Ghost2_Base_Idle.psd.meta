@@ -247,7 +247,7 @@ TextureImporter:
       Ghost2_Base_Idle_1: 199828874
       Ghost2_Base_Idle_3: 113754344
   spritePackingTag: 
-  pSDRemoveMatte: 0
+  pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 

@@ -203,7 +203,7 @@ TextureImporter:
       Human_Front_teen_animation_3: -559136769
       Human_Front_teen_animation_0: 1029252122
   spritePackingTag: 
-  pSDRemoveMatte: 0
+  pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 

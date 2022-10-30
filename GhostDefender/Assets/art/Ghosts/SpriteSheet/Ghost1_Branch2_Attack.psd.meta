@@ -159,7 +159,7 @@ TextureImporter:
       Ghost1_Branch2_Attack_1: -387830704
       Ghost1_Branch2_Attack_0: -1401620079
   spritePackingTag: 
-  pSDRemoveMatte: 0
+  pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
