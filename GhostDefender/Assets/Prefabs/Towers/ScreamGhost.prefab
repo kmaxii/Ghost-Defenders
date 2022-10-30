@@ -543,8 +543,8 @@ MonoBehaviour:
   _towerCollider: {fileID: 6206475456652965786}
   money: {fileID: 11400000, guid: 1ed0aff7ea52c294c907c6b53927c157, type: 2}
   shopElement: {fileID: 11400000, guid: ddef9eb1867aea44f9aae4e3b480ed0b, type: 2}
-  shootingCooldown: 1
-  damage: 4
+  shootingCooldown: 2
+  damage: 10
   pierce: 100
   projectileSpeed: 1000
   balloonsPopped: {fileID: 0}

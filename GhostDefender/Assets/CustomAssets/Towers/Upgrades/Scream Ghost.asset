@@ -25,7 +25,7 @@ MonoBehaviour:
     newSprite: {fileID: 0}
   - upgradeName: Louder Scream
     description: Increase range and fear
-    upgradeImage: {fileID: 0}
+    upgradeImage: {fileID: 1629352093, guid: 322f13e196ec9ff4aac3518d0b516fd2, type: 3}
     price: 1200
     attackCooldown: 0
     damage: 6
@@ -35,7 +35,7 @@ MonoBehaviour:
     newSprite: {fileID: 0}
   - upgradeName: MGEAPHONE
     description: Greatly increase range and fear
-    upgradeImage: {fileID: 0}
+    upgradeImage: {fileID: 21300000, guid: 8caff76e060b5d6449b7a5bbfe2c2dc7, type: 3}
     price: 4000
     attackCooldown: 0
     damage: 26
@@ -46,7 +46,7 @@ MonoBehaviour:
   path2:
   - upgradeName: Wider Scream
     description: Increase Scream AOE
-    upgradeImage: {fileID: 0}
+    upgradeImage: {fileID: 21300000, guid: 331ddc1462b8013499c9b4c7c884d6d7, type: 3}
     price: 400
     attackCooldown: 0
     damage: 0
@@ -56,7 +56,7 @@ MonoBehaviour:
     newSprite: {fileID: 0}
   - upgradeName: Faster Scream
     description: Increase Scream Rate
-    upgradeImage: {fileID: 0}
+    upgradeImage: {fileID: 21300000, guid: 331ddc1462b8013499c9b4c7c884d6d7, type: 3}
     price: 1000
     attackCooldown: -1
     damage: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
     newSprite: {fileID: 0}
   - upgradeName: 4 FACED
     description: Add 3 small extra faces and increase Scream Rate
-    upgradeImage: {fileID: 0}
+    upgradeImage: {fileID: 21300000, guid: 490bc312dcec8b348ae30432fedec730, type: 3}
     price: 4000
     attackCooldown: -0.2
     damage: 0

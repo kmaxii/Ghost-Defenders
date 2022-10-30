@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d809b86f3aedc41bbe1c2cc6e207f7, type: 3}
   m_Name: PumpkinGhost
   m_EditorClassIdentifier: 
-  shopIcon: {fileID: -841112277, guid: e8c3d2a07a3edd94ba4327a9b6b4e16f, type: 3}
+  shopIcon: {fileID: 1203179607, guid: c0dde89b3df34a944aa5a8abba38a6c0, type: 3}
   prefabToSpawn: {fileID: 6206475457069416282, guid: 47f645811e562e846afde303cda38729, type: 3}
   cost: 200
   cantSpawnOn: {fileID: 11400000, guid: 93db9e307e186694daaf5766c7461548, type: 2}
