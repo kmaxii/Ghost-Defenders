@@ -12,7 +12,7 @@ public class Bullet : MonoBehaviour
 
     protected int _pierce = 1;
 
-    protected float _maxRange;
+    public float _maxRange;
 
     protected Vector3 _startingPos;
     protected IntVariable _balloonsPopped;

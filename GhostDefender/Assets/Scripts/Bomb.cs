@@ -6,63 +6,19 @@ using Random = UnityEngine.Random;
 
 public class Bomb : Bullet
 {
-    public enum BombState
-    {
-        Normal,
-        Frag,
-        Cluster,
-        Impact
-    }
 
     [Header("Explosion")] 
     [Tooltip("Size of the circle where damage is dealt")]
     [SerializeField] private float radius = 3;
 
-    [SerializeField] private GameObject frag;
-    [SerializeField] private float fragSpeed;
-    [FormerlySerializedAs("fragRange")] [SerializeField] private float fragMaxRange;
-    
-    [SerializeField] private GameObject clusterBomb;
-    [SerializeField] private float clusterExplosionDistance = 2f;
-    [SerializeField] private float clusterBombSpeed = 1000f;
-
-    public BombState bombState = BombState.Normal;
-
     public float Radius
     {
         set => radius = value;
     }
-    private void OnTriggerEnter2D(Collider2D other)
+
+    private void OnDestroy()
     {
-        if (other.TryGetComponent<PathFollower>(out PathFollower pathFollower))
-        {
-            _pierce--;
-            
-     
-            
-            if (_pierce <= 0)
-            {
-                switch (bombState)
-                {
-                    case BombState.Normal:
-                        Explosion();
-                        break;
-                    case BombState.Frag:
-                        Explosion();
-                        Shoot8Around(frag, fragSpeed, fragMaxRange, 1);
-                        break;
-                    case BombState.Cluster:
-                        Explosion();
-                        Shoot8Around(clusterBomb, clusterBombSpeed, clusterExplosionDistance, Int32.MaxValue);
-                        break;
-                    case BombState.Impact:
-                        Explosion();
-                        break;
-                    
-                }
-                Destroy(gameObject);
-            }
-        }
+        Explosion();
     }
 
 
@@ -76,7 +32,7 @@ public class Bomb : Bullet
             if (!hit.CompareTag("Enemy"))
                 continue;
 
-            BalloonMono balloonMono = hit.GetComponent<BalloonMono>();
+            PrefabEnemyMono balloonMono = hit.GetComponent<PrefabEnemyMono>();
             DamageBalloon(balloonMono);
         }
     }
