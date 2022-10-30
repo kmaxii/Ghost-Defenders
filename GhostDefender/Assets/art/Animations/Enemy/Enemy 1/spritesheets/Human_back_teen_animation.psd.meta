@@ -203,7 +203,7 @@ TextureImporter:
       Human_back_teen_animation_3: 921970503
       Human_back_teen_animation_2: 934020294
   spritePackingTag: 
-  pSDRemoveMatte: 0
+  pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 

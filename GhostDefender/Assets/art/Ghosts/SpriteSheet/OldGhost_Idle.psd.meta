@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8e136a99b5a104542b464bea7b1bcd36
+guid: e84cb10524b169642bf15c17eaaf3094
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Human_Side_teen_animation_0
+      name: OldGhost_Idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -112,20 +112,20 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f355ccb0e72d544c98fb1a0bb4b7c65
-      internalID: -1751202199
+      spriteID: cbbb4ad11325bf143a2e4fddfc72aa04
+      internalID: -1479127875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Human_Side_teen_animation_1
+      name: OldGhost_Idle_1
       rect:
         serializedVersion: 2
         x: 256
@@ -133,20 +133,20 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1514c56b2f36ca44eac161b2465a4ee2
-      internalID: -688867635
+      spriteID: f4490f708c783a047b2a26c494355b9d
+      internalID: -2089931567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Human_Side_teen_animation_2
+      name: OldGhost_Idle_2
       rect:
         serializedVersion: 2
         x: 512
@@ -154,20 +154,20 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cbecff7b153b8b43a106cf832f70477
-      internalID: -1075683549
+      spriteID: 652ef338553b3304d833b3698d662348
+      internalID: -1989187262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Human_Side_teen_animation_3
+      name: OldGhost_Idle_3
       rect:
         serializedVersion: 2
         x: 768
@@ -175,14 +175,14 @@ TextureImporter:
         width: 256
         height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 041d69466993c9e4289b4d8774bcf6d5
-      internalID: -1685010197
+      spriteID: 3d165c521b6a4dd4c9ac42025a319e83
+      internalID: -239614577
       vertices: []
       indices: 
       edges: []
@@ -198,10 +198,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Human_Side_teen_animation_0: -1751202199
-      Human_Side_teen_animation_3: -1685010197
-      Human_Side_teen_animation_1: -688867635
-      Human_Side_teen_animation_2: -1075683549
+      OldGhost_Idle_3: -239614577
+      OldGhost_Idle_2: -1989187262
+      OldGhost_Idle_1: -2089931567
+      OldGhost_Idle_0: -1479127875
   spritePackingTag: 
   pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1

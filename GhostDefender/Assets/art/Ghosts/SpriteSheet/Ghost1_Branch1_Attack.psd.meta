@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8e136a99b5a104542b464bea7b1bcd36
+guid: fa7b8dad1f27f1946be1f6bde4eff20f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Human_Side_teen_animation_0
+      name: Ghost1_Branch1_Attack_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f355ccb0e72d544c98fb1a0bb4b7c65
-      internalID: -1751202199
+      spriteID: 08c1d1f45aa043046934889bd638eee3
+      internalID: 174205542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Human_Side_teen_animation_1
+      name: Ghost1_Branch1_Attack_1
       rect:
         serializedVersion: 2
         x: 256
@@ -139,50 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1514c56b2f36ca44eac161b2465a4ee2
-      internalID: -688867635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human_Side_teen_animation_2
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4cbecff7b153b8b43a106cf832f70477
-      internalID: -1075683549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Human_Side_teen_animation_3
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 041d69466993c9e4289b4d8774bcf6d5
-      internalID: -1685010197
+      spriteID: fb092d8733888c642bc85b33a749870e
+      internalID: -1684327312
       vertices: []
       indices: 
       edges: []
@@ -198,10 +156,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Human_Side_teen_animation_0: -1751202199
-      Human_Side_teen_animation_3: -1685010197
-      Human_Side_teen_animation_1: -688867635
-      Human_Side_teen_animation_2: -1075683549
+      Ghost1_Branch1_Attack_0: 174205542
+      Ghost1_Branch1_Attack_1: -1684327312
   spritePackingTag: 
   pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1

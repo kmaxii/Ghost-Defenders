@@ -203,7 +203,7 @@ TextureImporter:
       Human_Front_Child_animation_0: -144972977
       Human_Front_Child_animation_1: 849611273
   spritePackingTag: 
-  pSDRemoveMatte: 0
+  pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 

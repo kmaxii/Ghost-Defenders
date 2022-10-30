@@ -203,7 +203,7 @@ TextureImporter:
       Human_back_ghosthunter_animation_3: -918478084
       Human_back_ghosthunter_animation_1: -1655641314
   spritePackingTag: 
-  pSDRemoveMatte: 0
+  pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
