@@ -59,7 +59,7 @@ public abstract class PathFollower : MonoBehaviour
             if (currentPos == _path.Count)
             {
                 //Reached end
-                playerLives.Value -= TotalLives;
+                MakePlayerLoseHealth();
 
                 DestroyItself();
                 return;
@@ -82,6 +82,12 @@ public abstract class PathFollower : MonoBehaviour
         distanceTraveled =
             ((_path[currentPos] - position).magnitude / (_path[currentPos] - _path[currentPos - 1]).magnitude) +
             currentPos;
+    }
+
+    protected virtual void MakePlayerLoseHealth()
+    {
+        playerLives.Value -= TotalLives;
+
     }
 
     protected virtual void ChangedDirection()

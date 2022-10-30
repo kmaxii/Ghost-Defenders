@@ -1,11 +1,14 @@
 using System;
-using System.Collections.Generic;
+using Pathfinding;
 using Scriptable_objects;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class PrefabEnemyMono : PathFollower
 {
     private Animator _animator;
+
+    private bool _isPathfidinigOut;
 
     private void Start()
     {
@@ -65,6 +68,8 @@ public class PrefabEnemyMono : PathFollower
 
     private void ResetColor()
     {
+        if (_isPathfidinigOut)
+            return;
         _spriteRenderer.color = Color.white;
     }
 
@@ -115,7 +120,50 @@ public class PrefabEnemyMono : PathFollower
             }
         }
     }
-    
+
+    protected override void DestroyItself()
+    {
+        if (_isPathfidinigOut)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        balloonsSet.Remove(gameObject);
+        PathFindOut();
+    }
+
+    protected override void MakePlayerLoseHealth()
+    {
+        if (!_isPathfidinigOut)
+            base.MakePlayerLoseHealth();
+    }
+
+
+    private void PathFindOut()
+    {
+        
+        gameObject.tag = "Untagged";
+        GetComponent<CapsuleCollider2D>().enabled = false;
+        Invoke(nameof(SetTransparent), 0.1f);
+
+        Tilemap tilemap = GridManager.Instance.GetTileMap("Objects");
+
+        Vector3Int startingPos = tilemap.WorldToCell(transform.position);
+        Vector3Int endPos = tilemap.WorldToCell(Spawner.Instance.transform.position);
+
+        AStar aStar = new AStar(startingPos, endPos, tilemap);
+        aStar.RunAlgorithm();
+        _path = aStar.GetPath();
+        currentPos = 1;
+        _isPathfidinigOut = true;
+    }
+
+    private void SetTransparent()
+    {
+        _spriteRenderer.color = new Color(1, 1, 1, 0.3f);
+        transform.GetChild(0).gameObject.SetActive(false);
+        transform.GetChild(1).gameObject.SetActive(false);
+    }
 }
 
 [Serializable]

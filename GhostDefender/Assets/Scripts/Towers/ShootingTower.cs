@@ -140,7 +140,7 @@ namespace Towers
             for (int i = _targetsInRange.Count - 1; i >= 0; i--)
             {
                 PathFollower pathFollower = _targetsInRange[i];
-                if (pathFollower == null)
+                if (pathFollower == null || !pathFollower.CompareTag("Enemy"))
                 {
                     _targetsInRange.RemoveAt(i);
                     continue;
