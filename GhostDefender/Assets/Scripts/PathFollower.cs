@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Scriptable_objects;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -18,7 +19,6 @@ public abstract class PathFollower : MonoBehaviour
     [SerializeField] protected IntVariable playerLives;
     [SerializeField] protected IntVariable money;
     [SerializeField] public SetReference balloonsSet;
-
 
     [HideInInspector] public float distanceTraveled;
     [HideInInspector] public int currentPos = 1;
@@ -136,6 +136,11 @@ public abstract class PathFollower : MonoBehaviour
 
     public virtual void Damage(int amount, BalloonAttribute[] attributes)
     {
+        TextMeshPro textMeshPro = DamageIndicator.Get();
+        textMeshPro.text = amount.ToString();
+        textMeshPro.transform.parent.position = transform.position;
+        textMeshPro.transform.parent.SetParent(transform);
+
         if (attributes != null)
         {
             foreach (var attributeWithInt in spawnable.damageModifier)

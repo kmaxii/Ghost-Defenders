@@ -177,6 +177,7 @@ MonoBehaviour:
   playerLives: {fileID: 11400000, guid: 32598863241d13f4f997a6222951c882, type: 2}
   money: {fileID: 11400000, guid: 1ed0aff7ea52c294c907c6b53927c157, type: 2}
   balloonsSet: {fileID: 11400000, guid: f0abd2e956ff22e47b9c1a74baf5dbb5, type: 2}
+  damageIndicator: {fileID: 5540929138421300936, guid: aa5ba414d8c5c3e4d8d5bdb9663c5528, type: 3}
   distanceTraveled: 0
   currentPos: 1
   spawnable: {fileID: 0}
