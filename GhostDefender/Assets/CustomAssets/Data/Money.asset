@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8955cedc251de874eb309d19e4457569, type: 3}
   m_Name: Money
   m_EditorClassIdentifier: 
-  value: 1000
+  value: 131
   raiseOnValueChanged: {fileID: 11400000, guid: 0aee3e39888996447bc19e62163ba846, type: 2}

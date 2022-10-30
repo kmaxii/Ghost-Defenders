@@ -9,6 +9,9 @@ public class PrefabEnemyMono : PathFollower
     private Animator _animator;
 
     private bool _isPathfidinigOut;
+    
+    [SerializeField] private AudioEvent deathAudio;
+    [SerializeField] private GameEventWithAudioEvent @event;
 
     private void Start()
     {
@@ -141,6 +144,7 @@ public class PrefabEnemyMono : PathFollower
 
     private void PathFindOut()
     {
+        @event.Raise(deathAudio);
         _speedScale = 7f;
         gameObject.tag = "Untagged";
         GetComponent<CapsuleCollider2D>().enabled = false;

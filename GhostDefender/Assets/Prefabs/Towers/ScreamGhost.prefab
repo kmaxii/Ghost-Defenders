@@ -370,7 +370,7 @@ MonoBehaviour:
   activeBullet: 0
   offset: 0
   delay: 0
-  audioEvent: {fileID: 11400000, guid: 5e88f4ecc95905f42935a02c2e8169fe, type: 2}
+  audioEvent: {fileID: 11400000, guid: 9645db0ff1a9927468b266b71f3ca0ff, type: 2}
   gEvent: {fileID: 11400000, guid: 64443f448b769274b86023de7fb5866f, type: 2}
 --- !u!1 &6206475455622732003
 GameObject:
