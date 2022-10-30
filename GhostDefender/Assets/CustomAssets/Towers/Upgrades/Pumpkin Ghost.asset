@@ -42,7 +42,7 @@ MonoBehaviour:
     pierce: 0
     projectileSpeed: 0
     canDetectCamosAfter: 0
-    newSprite: {fileID: 0}
+    newSprite: {fileID: 131184613, guid: 136efcdeec7054045a21e3d987984516, type: 3}
   path2:
   - upgradeName: Stronger Flames
     description: Higher fear
@@ -73,4 +73,4 @@ MonoBehaviour:
     pierce: 0
     projectileSpeed: 0
     canDetectCamosAfter: 0
-    newSprite: {fileID: 0}
+    newSprite: {fileID: -746618398, guid: 4e9ce1221d07d654ca10eb0ee2d4f344, type: 3}
