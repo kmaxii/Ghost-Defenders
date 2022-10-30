@@ -24,11 +24,11 @@ public class PrefabEnemyMono : PathFollower
         {
             case var v when v.Equals(Vector2Int.right):
                 _animator.SetTrigger("WalkRight");
-                _spriteRenderer.flipX = false;
+                _spriteRenderer.flipX = true;
                 break;
             case var v when v.Equals(Vector2Int.left):
                 _animator.SetTrigger("WalkRight");
-                _spriteRenderer.flipX = true;
+                _spriteRenderer.flipX = false;
                 break;
             case var v when v.Equals(Vector2Int.up):
                 _animator.SetTrigger("WalkAway");

@@ -161,6 +161,11 @@ public class Spawner : MonoBehaviour, IChildFinished, IEventListenerInterface
                 break;
             }
         }
+        
+        for(int i = 0; i < _path.Count; i++)
+        {
+            _path[i] += new Vector3(0, 1, 0);
+        }
     }
 
     private void AddToPath(Vector3 point)

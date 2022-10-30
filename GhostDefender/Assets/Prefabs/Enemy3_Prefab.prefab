@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 6033165568118504986}
   - component: {fileID: 1461990389615995351}
   m_Layer: 6
-  m_Name: Enemy1_Prefab
+  m_Name: Enemy3_Prefab
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113,7 +113,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 999981657, guid: 0c0bd6f15f0e60749bb3b829b2a76458, type: 3}
+  m_Sprite: {fileID: 510127198, guid: 51b7eee15ddc8a04785ba1c733f67881, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -191,7 +191,7 @@ Animator:
   m_GameObject: {fileID: 636063995103973209}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 431d9b7989d38054dbb28c794c1642b4, type: 2}
+  m_Controller: {fileID: 9100000, guid: 51f064ea8ef147d41a5635eda97e3173, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -301,7 +301,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3574453801561457507
 Transform:
   m_ObjectHideFlags: 0
