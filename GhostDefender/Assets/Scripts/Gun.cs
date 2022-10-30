@@ -20,7 +20,7 @@ public class Gun : MonoBehaviour
 
     private float _offsetInRadians;
 
-    private ShootingTower _shootingTower;
+    protected ShootingTower _shootingTower;
 
 
     public void SetActiveBullet(int i)
@@ -36,7 +36,7 @@ public class Gun : MonoBehaviour
         _shootingTower.ShootEvent += Shoot;
     }
 
-    private void OnDestroy()
+    private void OnDisable()
     {
         _shootingTower.ShootEvent -= Shoot;
     }
