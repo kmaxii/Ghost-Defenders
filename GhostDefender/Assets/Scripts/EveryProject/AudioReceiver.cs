@@ -6,7 +6,9 @@ public class AudioReceiver : MonoBehaviour
 {
 
     private readonly List<AudioSource> _audioSources = new List<AudioSource>();
-    
+
+    private readonly Dictionary<AudioEvent, List<int>> _audioEventsPlaying = new Dictionary<AudioEvent, List<int>>();
+
 
     // Update is called once per frame
     void Update()
@@ -33,11 +35,20 @@ public class AudioReceiver : MonoBehaviour
                 continue;
             //Found unused audio source. Playing using that
             audioEvent.Play(audioSource);
+            AddToPlaying(audioEvent, i);
+
             return;
         }
         
         //No unused audio source was found. So adding a new one.
         _audioSources.Add(gameObject.AddComponent<AudioSource>());
         audioEvent.Play(_audioSources[^1]);
+    }
+
+    private void AddToPlaying(AudioEvent audioEvent, int audioSource)
+    {
+        if (!_audioEventsPlaying.ContainsKey(audioEvent))
+            _audioEventsPlaying.Add(audioEvent, new List<int>());
+        
     }
 }

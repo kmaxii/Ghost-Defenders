@@ -80,7 +80,7 @@ public abstract class PathFollower : MonoBehaviour
         MoveToPosition(newPos);
 
         distanceTraveled =
-            ((_path[currentPos] - position).magnitude / (_path[currentPos] - _path[currentPos - 1]).magnitude) +
+            ((position - _path[currentPos-1]).magnitude / (_path[currentPos] - _path[currentPos - 1]).magnitude) +
             currentPos;
     }
 
@@ -138,7 +138,7 @@ public abstract class PathFollower : MonoBehaviour
     {
         TextMeshPro textMeshPro = DamageIndicator.Get();
         textMeshPro.text = amount.ToString();
-        textMeshPro.transform.parent.position = transform.position;
+        textMeshPro.transform.parent.position = transform.position + new Vector3(0, 1, 0);
         textMeshPro.transform.parent.SetParent(transform);
 
         if (attributes != null)
