@@ -81,7 +81,9 @@ public class Bullet : MonoBehaviour
 
     protected void TriggerSoundAndAnimation(Vector3 position)
     {
-        @event.Raise(audioEvent);
-        AnimationPool.Instance.Spawn(animationOnHit, position);
+        if (audioEvent)
+            @event.Raise(audioEvent);
+        if(animationOnHit)
+            AnimationPool.Instance.Spawn(animationOnHit, position);
     }
 }
