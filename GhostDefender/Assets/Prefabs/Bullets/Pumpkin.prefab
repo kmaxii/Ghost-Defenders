@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 8447012491566630869}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.35, y: 2.35, z: 2.35}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -483386163, guid: e8c3d2a07a3edd94ba4327a9b6b4e16f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 463668571e8dbda4fad5d05a7609fc96, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -137,16 +137,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rangeOverwrite: 0
+  _maxRange: 0
   audioEvent: {fileID: 11400000, guid: 1cef6d337031bf6408841ebabffd6015, type: 2}
   event: {fileID: 11400000, guid: 64443f448b769274b86023de7fb5866f, type: 2}
   animationOnHit: {fileID: 11400000, guid: e882a4de20d39c447b2323d260b9f21d, type: 2}
   attributes:
   - {fileID: 11400000, guid: 326f1b642ae2b0a42a88a03a854511f5, type: 2}
   radius: 4
-  frag: {fileID: 8447012491566630869, guid: dfc013f6df335e543924d7f33058e14e, type: 3}
-  fragSpeed: 1333.29
-  fragMaxRange: 4.99
-  clusterBomb: {fileID: 8447012491566630869, guid: ceb6839df2c0152429e3b69602c89286, type: 3}
-  clusterExplosionDistance: 2.81
-  clusterBombSpeed: 2000
-  bombState: 0
