@@ -18,7 +18,7 @@ public class RoundStart : MonoBehaviour
 
     public void ShowButton()
     {
-        if (_round == 41)
+        if (_round == 13)
         {
             gameOver.WonGame();
             return;

@@ -24,6 +24,6 @@ public class RoundWriter : MonoBehaviour, IEventListenerInterface
     public void OnEventRaised()
     {
         round++;
-        _text.text = $"Round {round}/40";
+        _text.text = $"Round {round}/12";
     }
 }
