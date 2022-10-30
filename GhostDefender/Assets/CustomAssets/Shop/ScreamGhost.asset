@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d809b86f3aedc41bbe1c2cc6e207f7, type: 3}
   m_Name: ScreamGhost
   m_EditorClassIdentifier: 
-  shopIcon: {fileID: -1827363754, guid: 339faa579bde32f438da95cbdae65a88, type: 3}
+  shopIcon: {fileID: 284160594, guid: 0f817b50edc66804295079adcd169164, type: 3}
   prefabToSpawn: {fileID: 6206475457069416282, guid: bec1b6ee58329d140b9bdd084a3d5998, type: 3}
   cost: 1000
   cantSpawnOn: {fileID: 11400000, guid: 93db9e307e186694daaf5766c7461548, type: 2}
