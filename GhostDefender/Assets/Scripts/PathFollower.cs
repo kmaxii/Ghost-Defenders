@@ -28,7 +28,7 @@ public abstract class PathFollower : MonoBehaviour
 
     public Spawnable spawnable;
 
-    private readonly float _speedScale = 13f;
+    protected float _speedScale = 13f;
 
     protected bool _isCamo;
     protected bool _isRegen;

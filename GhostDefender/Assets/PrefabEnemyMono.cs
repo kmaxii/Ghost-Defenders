@@ -141,7 +141,7 @@ public class PrefabEnemyMono : PathFollower
 
     private void PathFindOut()
     {
-        
+        _speedScale = 7f;
         gameObject.tag = "Untagged";
         GetComponent<CapsuleCollider2D>().enabled = false;
         Invoke(nameof(SetTransparent), 0.1f);
