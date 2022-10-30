@@ -36,6 +36,7 @@ namespace Towers
         [SerializeField] private String animationOnFire;
 
         [SerializeField] private float _extraRangeOffset = 1f;
+        private static readonly int IdleAnimation = Animator.StringToHash("IdleAnimation");
 
         // Start is called before the first frame update
         void Start()
@@ -206,6 +207,12 @@ namespace Towers
         public void SetFiringAnimation(string animationName)
         {
             animationOnFire = animationName;
+        }
+
+        public void SetIdleAnimation(int number)
+        {
+            _animator.SetInteger(IdleAnimation, number);
+            Debug.Log(_animator.GetInteger(IdleAnimation));
         }
     }
 }

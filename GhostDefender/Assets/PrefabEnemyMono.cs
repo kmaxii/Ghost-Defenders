@@ -12,7 +12,7 @@ public class PrefabEnemyMono : PathFollower
     
     [SerializeField] private AudioEvent deathAudio;
     [SerializeField] private GameEventWithAudioEvent @event;
-
+    
     private void Start()
     {
         balloonsSet.Add(gameObject);
