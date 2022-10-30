@@ -207,6 +207,7 @@ namespace Towers
         public void SetFiringAnimation(string animationName)
         {
             animationOnFire = animationName;
+            _animator.SetTrigger(animationName);
         }
 
         public void SetIdleAnimation(int number)
