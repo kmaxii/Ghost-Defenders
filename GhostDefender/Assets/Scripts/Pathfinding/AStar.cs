@@ -36,6 +36,7 @@ namespace Pathfinding
                 PathNode node = _closed[previous];
                 Vector3 worldPos = _objects.CellToWorld(node.TilePosition);
                 worldPos.y++;
+                worldPos.x += 0.5f;
                 bestPath.Add(worldPos);
 
                 if (node.Previous == null)
@@ -170,7 +171,7 @@ namespace Pathfinding
         private float GetHeuristic(Vector3Int position)
         {
             Vector3Int distance = _goal - position;
-            return distance.x * distance.x + distance.x + distance.y * distance.y;
+            return distance.x * distance.x + distance.y * distance.y;
         }
     }
 }

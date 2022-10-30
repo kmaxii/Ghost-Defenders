@@ -18,8 +18,10 @@ namespace Pathfinding
             {
                 float distanceToRightY = _goalY - TilePosition.y;
                 distanceToRightY = distanceToRightY >= 0 ? distanceToRightY : distanceToRightY * -1;
-                distanceToRightY *= 1000;
-                return _h + G + distanceToRightY;
+                distanceToRightY = distanceToRightY < 3 ? (distanceToRightY * distanceToRightY) * 100 : 0;
+                
+                
+                return (_h + G * G) + distanceToRightY;
             }
         }
 
