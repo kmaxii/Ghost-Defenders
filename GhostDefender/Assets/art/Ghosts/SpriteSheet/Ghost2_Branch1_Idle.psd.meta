@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8e136a99b5a104542b464bea7b1bcd36
+guid: 136efcdeec7054045a21e3d987984516
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Human_Side_teen_animation_0
+      name: Ghost2_Branch1_Idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f355ccb0e72d544c98fb1a0bb4b7c65
-      internalID: -1751202199
+      spriteID: d68a977b3956b2c4887844f277b8c06a
+      internalID: 131184613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Human_Side_teen_animation_1
+      name: Ghost2_Branch1_Idle_1
       rect:
         serializedVersion: 2
         x: 256
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1514c56b2f36ca44eac161b2465a4ee2
-      internalID: -688867635
+      spriteID: 2454fdba97865e145aa71fd8d1ceab1c
+      internalID: 765192551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Human_Side_teen_animation_2
+      name: Ghost2_Branch1_Idle_2
       rect:
         serializedVersion: 2
         x: 512
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cbecff7b153b8b43a106cf832f70477
-      internalID: -1075683549
+      spriteID: c9056919f7290ee49b5c8f495ffd1005
+      internalID: 1439585283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Human_Side_teen_animation_3
+      name: Ghost2_Branch1_Idle_3
       rect:
         serializedVersion: 2
         x: 768
@@ -181,8 +181,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 041d69466993c9e4289b4d8774bcf6d5
-      internalID: -1685010197
+      spriteID: 4e617699819ebee409a835e7ce3a154b
+      internalID: -1242590736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Branch1_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f36842387f97044abd985a36be660f
+      internalID: -769985063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost2_Branch1_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4793a8a32b47d45a6ad5535dea6946
+      internalID: 1697469255
       vertices: []
       indices: 
       edges: []
@@ -198,10 +240,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Human_Side_teen_animation_0: -1751202199
-      Human_Side_teen_animation_3: -1685010197
-      Human_Side_teen_animation_1: -688867635
-      Human_Side_teen_animation_2: -1075683549
+      Ghost2_Branch1_Idle_3: -1242590736
+      Ghost2_Branch1_Idle_4: -769985063
+      Ghost2_Branch1_Idle_2: 1439585283
+      Ghost2_Branch1_Idle_5: 1697469255
+      Ghost2_Branch1_Idle_0: 131184613
+      Ghost2_Branch1_Idle_1: 765192551
   spritePackingTag: 
   pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1

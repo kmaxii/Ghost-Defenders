@@ -1,16 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Numerics;
 using Scriptable_objects;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-using Quaternion = UnityEngine.Quaternion;
-using Vector3 = UnityEngine.Vector3;
 
 namespace Towers
 {
-    public delegate void BulletFire(int i, int y, int z, float x, IntVariable balloonsPopped);  
+    public delegate void BulletFire(int i, int y, int z, float x, IntVariable balloonsPopped);
 
     public class ShootingTower : Tower
     {
@@ -26,11 +23,11 @@ namespace Towers
             get => _furthestInRange;
             private set => _furthestInRange = value;
         }
-        
+
         public event BulletFire ShootEvent; // event
 
         private float _timer;
-        
+
 
         [SerializeField] private FloatVariable defaultRange;
 
@@ -39,6 +36,7 @@ namespace Towers
         [SerializeField] private String animationOnFire;
 
         [SerializeField] private float _extraRangeOffset = 1f;
+
         // Start is called before the first frame update
         void Start()
         {
@@ -47,47 +45,46 @@ namespace Towers
             _towerCollider.radius = defaultRange.value / (transform.localScale.x / 2f);
         }
 
-     
+
         private void Update()
         {
-           
             if (furthestInRange && !furthestInRange.activeSelf)
             {
                 _targetsInRange.Remove(furthestInRange.GetComponent<PathFollower>());
                 furthestInRange = null;
             }
-            
+
             _time += Time.deltaTime;
             if (_time >= _updateDelay)
             {
                 UpdateTarget();
                 _time = 0;
             }
-            
+
             _timer += Time.deltaTime;
-            
-            
+
+
             if (!furthestInRange)
                 return;
 
- 
+
             if (_lookAtTarget)
             {
                 LookAtTarget();
             }
-            
-            
+
+
             if (_timer < shootingCooldown) return;
 
-            
+
             PrepareShoot();
         }
 
         private void LookAtTarget()
         {
-            Vector3 diff =  transform.position - furthestInRange.transform.position;
+            Vector3 diff = transform.position - furthestInRange.transform.position;
             diff.Normalize();
- 
+
             float rotZ = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(0f, 0f, rotZ - 90);
         }
@@ -96,14 +93,13 @@ namespace Towers
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (!other.tag.Equals("Enemy")) return;
-        
+
             _targetsInRange.Add(other.gameObject.GetComponent<PathFollower>());
-            
+
             //If there is no current target, get one
             if (!furthestInRange && CanSeePoint(other.transform.position))
             {
                 furthestInRange = other.gameObject;
-
             }
         }
 
@@ -117,7 +113,6 @@ namespace Towers
             {
                 UpdateTarget();
             }
-
         }
 
         private void UpdateTarget()
@@ -132,10 +127,9 @@ namespace Towers
         private bool TryGetFurthestInRange(out GameObject furthest)
         {
             furthest = null;
-            float furthestTarget = 0f;
             bool found = _targetsInRange.Count > 0;
-            
-            _targetsInRange = _targetsInRange.OrderBy(o=>o.distanceTraveled).ToList();
+
+            _targetsInRange = _targetsInRange.OrderBy(o => o.distanceTraveled).ToList();
 
             for (int i = _targetsInRange.Count - 1; i >= 0; i--)
             {
@@ -146,14 +140,12 @@ namespace Towers
                     continue;
                 }
 
-                if (pathFollower.distanceTraveled > furthestTarget)
-                {
-                    if (!CanSeePoint(pathFollower.transform.position))
-                        continue;
-                    
-                    furthest = pathFollower.gameObject;
-                    furthestTarget = pathFollower.distanceTraveled;
-                }
+
+                if (!CanSeePoint(pathFollower.transform.position))
+                    continue;
+
+                furthest = pathFollower.gameObject;
+                break;
             }
 
             if (furthest == null)
@@ -181,24 +173,18 @@ namespace Towers
                 worldPos.z = 0;
                 Vector3Int pos = tileMap.layoutGrid.WorldToCell(worldPos);
                 tileMap.SetColor(pos, Color.black);
-                
+
                 if (tileMap.HasTile(pos))
                     return false;
             }
 
             return true;
-
-
         }
+
         private void PrepareShoot()
         {
-            if (!furthestInRange.activeSelf)
-            {
-                _targetsInRange.Remove(furthestInRange.GetComponent<PathFollower>());
-                furthestInRange = null;
+            UpdateTarget();
 
-                return;
-            }
             _timer = 0;
 
             _lookAtTarget = true;
@@ -209,17 +195,17 @@ namespace Towers
 
         private void Fire()
         {
-            if(!furthestInRange) return;
+            if (!furthestInRange) return;
 
             LookAtTarget();
-            ShootEvent?.Invoke(damage, projectileSpeed, pierce, (_towerCollider.radius * transform.localScale.x) + _extraRangeOffset, balloonsPopped);
+            ShootEvent?.Invoke(damage, projectileSpeed, pierce,
+                (_towerCollider.radius * transform.localScale.x) + _extraRangeOffset, balloonsPopped);
             _lookAtTarget = false;
         }
-        
+
         public void SetFiringAnimation(string animationName)
         {
             animationOnFire = animationName;
         }
-        
     }
 }

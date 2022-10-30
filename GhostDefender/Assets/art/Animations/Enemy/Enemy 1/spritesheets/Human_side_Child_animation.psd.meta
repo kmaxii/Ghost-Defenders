@@ -203,7 +203,7 @@ TextureImporter:
       Human_side_Child_animation_0: 999981657
       Human_side_Child_animation_1: -263035598
   spritePackingTag: 
-  pSDRemoveMatte: 0
+  pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
