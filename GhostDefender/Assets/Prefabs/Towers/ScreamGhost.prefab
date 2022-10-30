@@ -370,7 +370,7 @@ MonoBehaviour:
   activeBullet: 0
   offset: 0
   delay: 0
-  audioEvent: {fileID: 11400000, guid: 5e88f4ecc95905f42935a02c2e8169fe, type: 2}
+  audioEvent: {fileID: 11400000, guid: 9645db0ff1a9927468b266b71f3ca0ff, type: 2}
   gEvent: {fileID: 11400000, guid: 64443f448b769274b86023de7fb5866f, type: 2}
 --- !u!1 &6206475455622732003
 GameObject:
@@ -627,8 +627,8 @@ MonoBehaviour:
   _towerCollider: {fileID: 6206475456652965786}
   money: {fileID: 11400000, guid: 1ed0aff7ea52c294c907c6b53927c157, type: 2}
   shopElement: {fileID: 11400000, guid: ddef9eb1867aea44f9aae4e3b480ed0b, type: 2}
-  shootingCooldown: 2
-  damage: 10
+  shootingCooldown: 1
+  damage: 4
   pierce: 100
   projectileSpeed: 1000
   balloonsPopped: {fileID: 0}

@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: GhostScream
   m_EditorClassIdentifier: 
   audioClips:
-  - {fileID: 8300000, guid: c4726556ccf55974986b63283b965b13, type: 3}
-  - {fileID: 8300000, guid: 1c99a6da7f978c34680334173e6ce44e, type: 3}
-  - {fileID: 8300000, guid: a6eda9915d20be648a19dfbbb68b8363, type: 3}
-  - {fileID: 8300000, guid: 6b57a0c128a0d2b42b5b423c6a6c0441, type: 3}
-  - {fileID: 8300000, guid: 90bca67a4d7a7a841a02a8915aa823b4, type: 3}
+  - {fileID: 8300000, guid: 574229c03dea4604eb87428dc79ab1b1, type: 3}
+  - {fileID: 8300000, guid: b0c5a6c95065835409e9e95a1bc3bb11, type: 3}
+  - {fileID: 8300000, guid: 045c7fce6f3786541bc4ddc98060c6e6, type: 3}
+  - {fileID: 8300000, guid: 22e805abe9b453c439a98d49ba83047e, type: 3}
+  - {fileID: 8300000, guid: 25c3f864ed45a4f4a8957a5d4258f3ce, type: 3}
   minimumVolume: 0.5
   maximumVolume: 0.944
   minimumPitch: 0.667

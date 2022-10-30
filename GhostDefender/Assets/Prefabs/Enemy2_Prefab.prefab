@@ -181,6 +181,8 @@ MonoBehaviour:
   currentPos: 1
   spawnable: {fileID: 0}
   movingDirection: {x: 0, y: 0}
+  deathAudio: {fileID: 11400000, guid: 5e88f4ecc95905f42935a02c2e8169fe, type: 2}
+  event: {fileID: 11400000, guid: 64443f448b769274b86023de7fb5866f, type: 2}
 --- !u!95 &1461990389615995351
 Animator:
   serializedVersion: 4

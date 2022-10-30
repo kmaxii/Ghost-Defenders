@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407654005760822410}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.23, z: 0}
+  m_LocalPosition: {x: 0, y: 1.233, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -158,8 +158,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.048720002}
-  m_Size: {x: 1.56, y: 2.3638813}
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.88, y: 1.04}
   m_Direction: 0
 --- !u!114 &6033165568118504986
 MonoBehaviour:
@@ -181,6 +181,8 @@ MonoBehaviour:
   currentPos: 1
   spawnable: {fileID: 0}
   movingDirection: {x: 0, y: 0}
+  deathAudio: {fileID: 11400000, guid: 5e88f4ecc95905f42935a02c2e8169fe, type: 2}
+  event: {fileID: 11400000, guid: 64443f448b769274b86023de7fb5866f, type: 2}
 --- !u!95 &1461990389615995351
 Animator:
   serializedVersion: 4
@@ -310,7 +312,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1313835897177161579}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:

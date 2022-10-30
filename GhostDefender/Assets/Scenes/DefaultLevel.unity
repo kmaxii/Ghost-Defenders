@@ -1969,7 +1969,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &318613000
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16995,7 +16995,7 @@ MonoBehaviour:
   toSetArray:
   - value: 1000
     intVariable: {fileID: 11400000, guid: 1ed0aff7ea52c294c907c6b53927c157, type: 2}
-  - value: 200
+  - value: 1
     intVariable: {fileID: 11400000, guid: 32598863241d13f4f997a6222951c882, type: 2}
 --- !u!1 &1352898589
 GameObject:
