@@ -20,8 +20,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 17f0f80f0ed96004a9d4a4f5f9085058, type: 3}
   - {fileID: 8300000, guid: 9a85f6f1f90cb0f4892b53b3be2fc031, type: 3}
   - {fileID: 8300000, guid: 0f93b35f7c3bdfc4db0518cb40624770, type: 3}
-  - {fileID: 8300000, guid: 6b57a0c128a0d2b42b5b423c6a6c0441, type: 3}
-  - {fileID: 8300000, guid: 90bca67a4d7a7a841a02a8915aa823b4, type: 3}
   - {fileID: 8300000, guid: 843b3f5c33225a74a97c30d7d1c133d1, type: 3}
   minimumVolume: 0.528
   maximumVolume: 1
