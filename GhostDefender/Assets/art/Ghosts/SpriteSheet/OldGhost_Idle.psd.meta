@@ -203,7 +203,7 @@ TextureImporter:
       OldGhost_Idle_1: -2089931567
       OldGhost_Idle_0: -1479127875
   spritePackingTag: 
-  pSDRemoveMatte: 0
+  pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 

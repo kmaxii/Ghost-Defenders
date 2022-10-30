@@ -247,7 +247,7 @@ TextureImporter:
       Ghost1_Branch1_Idle_1: 1160327636
       Ghost1_Branch1_Idle_5: -24975598
   spritePackingTag: 
-  pSDRemoveMatte: 0
+  pSDRemoveMatte: 1
   pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 

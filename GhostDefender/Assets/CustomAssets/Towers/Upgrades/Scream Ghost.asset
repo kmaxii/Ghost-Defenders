@@ -18,7 +18,7 @@ MonoBehaviour:
     upgradeImage: {fileID: 1629352093, guid: 322f13e196ec9ff4aac3518d0b516fd2, type: 3}
     price: 750
     attackCooldown: 0
-    damage: 3
+    damage: 8
     pierce: 0
     projectileSpeed: 0
     canDetectCamosAfter: 0
@@ -28,7 +28,7 @@ MonoBehaviour:
     upgradeImage: {fileID: 0}
     price: 1200
     attackCooldown: 0
-    damage: 3
+    damage: 6
     pierce: 0
     projectileSpeed: 0
     canDetectCamosAfter: 0
@@ -38,7 +38,7 @@ MonoBehaviour:
     upgradeImage: {fileID: 0}
     price: 4000
     attackCooldown: 0
-    damage: 10
+    damage: 26
     pierce: 0
     projectileSpeed: 0
     canDetectCamosAfter: 0
@@ -58,7 +58,7 @@ MonoBehaviour:
     description: Increase Scream Rate
     upgradeImage: {fileID: 0}
     price: 1000
-    attackCooldown: -0.5
+    attackCooldown: -1
     damage: 0
     pierce: 0
     projectileSpeed: 0
